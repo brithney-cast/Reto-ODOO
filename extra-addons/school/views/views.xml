@@ -27,6 +27,7 @@
               <field name="max_students"/>
               <field name="active"/>
               <field name="student_ids"/>
+              <field name="teacher_id"/>
             </group>
           </sheet>
         </form>

@@ -12,6 +12,7 @@ class subject(models.Model):
     max_students = fields.Integer(string="Máximo de Estudiantes", required=True)
     active = fields.Boolean(string="Activo", default=True)
     student_ids = fields.Many2many("school.student", string="Estudiantes")
+    teacher_id = fields.Many2one("school.teacher", string="Profesor")
     
 
 #     value2 = fields.Float(compute="_value_pc", store=True)
