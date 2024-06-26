@@ -13,12 +13,3 @@ class subject(models.Model):
     active = fields.Boolean(string="Activo", default=True)
     student_ids = fields.Many2many("school.student", string="Estudiantes")
     teacher_id = fields.Many2one("school.teacher", string="Profesor")
-    
-
-#     value2 = fields.Float(compute="_value_pc", store=True)
-#     description = fields.Text()
-#
-#     @api.depends('value')
-#     def _value_pc(self):
-#         for record in self:
-#             record.value2 = float(record.value) / 100
