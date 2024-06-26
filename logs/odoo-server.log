@@ -10326,3 +10326,195 @@ NameError: name 'api' is not defined
 2024-06-26 14:59:22,867 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 14:59:22] "POST /web/dataset/call_kw/school.student/read HTTP/1.1" 200 - 4 0.001 0.003
 2024-06-26 14:59:23,097 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 14:59:23] "POST /web/dataset/call_kw/school.subject/read HTTP/1.1" 200 - 3 0.001 0.002
 2024-06-26 14:59:28,987 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 14:59:28] "POST /web/dataset/call_kw/school.student/web_search_read HTTP/1.1" 200 - 5 0.001 0.003
+2024-06-26 15:07:06,605 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-26 15:07:06,607 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-26 15:12:56,723 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-06-26 15:12:56,723 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-06-26 15:12:56,740 1 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 223, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 208, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2024-06-26 15:12:56,746 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-06-26 15:12:56,746 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.19.0.2), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-06-26 15:12:56,750 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-06-26 15:12:56,750 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.19.0.2), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-06-26 15:12:57,074 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-06-26 15:12:58,744 1 INFO ? odoo: Odoo version 16.0-20240624 
+2024-06-26 15:12:58,744 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-06-26 15:12:58,744 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-06-26 15:12:58,744 1 INFO ? odoo: database: odoo@db_postgresql:5432 
+2024-06-26 15:12:58,829 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-06-26 15:12:58,960 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 8940af1072b7:8069 
+2024-06-26 15:13:00,571 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-06-26 15:13:00,576 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-26 15:13:00,594 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'school', defaulting to LGPL-3 
+2024-06-26 15:13:00,601 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-06-26 15:13:01,171 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.57s, 0 queries (+0 extra) 
+2024-06-26 15:13:01,306 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-06-26 15:13:01,309 1 INFO db_odoo odoo.modules.registry: Registry loaded in 0.752s 
+2024-06-26 15:13:01,310 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-26 15:13:01,432 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:01] "GET /websocket HTTP/1.1" 101 - 23 0.019 0.856
+2024-06-26 15:13:01,620 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-06-26 15:13:11,046 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:11] "POST /web/action/load HTTP/1.1" 200 - 13 0.007 0.160
+2024-06-26 15:13:11,569 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:11] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 49 0.023 0.047
+2024-06-26 15:13:12,235 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:12] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.005
+2024-06-26 15:13:12,364 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:12] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.010 0.008
+2024-06-26 15:13:16,846 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:16] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.006 0.010
+2024-06-26 15:13:16,858 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.013 0.015
+2024-06-26 15:13:19,166 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:19] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.025 0.015
+2024-06-26 15:13:19,399 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:19] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.003
+2024-06-26 15:13:23,270 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['school'] to user admin #2 via 172.19.0.1 
+2024-06-26 15:13:23,271 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['school'] to user admin #2 via 172.19.0.1 
+2024-06-26 15:13:23,271 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['school'] to user admin #2 via 172.19.0.1 
+2024-06-26 15:13:23,756 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 172.19.0.1 
+2024-06-26 15:13:24,345 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-06-26 15:13:24,357 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-26 15:13:24,379 1 INFO db_odoo odoo.modules.loading: updating modules list 
+2024-06-26 15:13:24,381 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.19.0.1 
+2024-06-26 15:13:24,877 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-06-26 15:13:24,877 1 INFO db_odoo odoo.modules.loading: Loading module school (3/74) 
+2024-06-26 15:13:24,902 1 INFO db_odoo odoo.modules.registry: module school: creating or updating database tables 
+2024-06-26 15:13:24,958 1 INFO db_odoo odoo.modules.loading: loading school/security/ir.model.access.csv 
+2024-06-26 15:13:24,967 1 INFO db_odoo odoo.modules.loading: loading school/views/views.xml 
+2024-06-26 15:13:25,021 1 INFO db_odoo odoo.modules.loading: loading school/views/templates.xml 
+2024-06-26 15:13:25,023 1 INFO db_odoo odoo.modules.loading: Module school: loading demo 
+2024-06-26 15:13:25,023 1 INFO db_odoo odoo.modules.loading: loading school/demo/demo.xml 
+2024-06-26 15:13:25,027 1 INFO db_odoo odoo.addons.base.models.ir_module: module school: no translation for language es_PE 
+2024-06-26 15:13:25,046 1 INFO db_odoo odoo.modules.loading: Module school loaded in 0.17s, 213 queries (+213 other) 
+2024-06-26 15:13:25,076 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.20s, 213 queries (+213 extra) 
+2024-06-26 15:13:25,416 1 INFO db_odoo odoo.modules.registry: verifying fields for every extended model 
+2024-06-26 15:13:25,725 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-06-26 15:13:25,735 1 INFO db_odoo odoo.modules.registry: Registry loaded in 1.403s 
+2024-06-26 15:13:25,736 1 INFO db_odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-06-26 15:13:25,739 1 INFO db_odoo odoo.modules.registry: Registry changed, signaling through the database 
+2024-06-26 15:13:25,739 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:25] "POST /web/dataset/call_button HTTP/1.1" 200 - 3429 0.991 1.481
+2024-06-26 15:13:26,126 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-26 15:13:28,747 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'school', defaulting to LGPL-3 
+2024-06-26 15:13:29,022 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:29] "GET /web HTTP/1.1" 200 - 89 0.036 2.861
+2024-06-26 15:13:31,857 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:31] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 6 0.002 0.004
+2024-06-26 15:13:32,072 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:32] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.004
+2024-06-26 15:13:32,236 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:32] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.006 0.010
+2024-06-26 15:13:32,542 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:32] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-06-26 15:13:32,610 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:32] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 35 0.023 0.014
+2024-06-26 15:13:32,611 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:32] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.029 0.017
+2024-06-26 15:13:32,870 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:32] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.005 0.003
+2024-06-26 15:13:32,877 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:32] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.005 0.005
+2024-06-26 15:13:39,994 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:39] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.005
+2024-06-26 15:13:40,303 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:40] "POST /web/dataset/call_kw/school.subject/get_views HTTP/1.1" 200 - 22 0.007 0.010
+2024-06-26 15:13:40,547 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:40] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.003
+2024-06-26 15:13:40,553 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:40] "POST /web/dataset/call_kw/school.subject/web_search_read HTTP/1.1" 200 - 6 0.002 0.002
+2024-06-26 15:13:44,232 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:44] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.005
+2024-06-26 15:13:45,381 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:45] "POST /web/dataset/call_kw/school.student/get_views HTTP/1.1" 200 - 12 0.003 0.007
+2024-06-26 15:13:45,761 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:45] "POST /web/dataset/call_kw/school.student/web_search_read HTTP/1.1" 200 - 7 0.002 0.003
+2024-06-26 15:13:51,841 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:51] "POST /web/dataset/call_kw/school.student/read HTTP/1.1" 200 - 4 0.001 0.004
+2024-06-26 15:13:52,315 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:13:52] "POST /web/dataset/call_kw/school.subject/read HTTP/1.1" 200 - 3 0.001 0.003
+2024-06-26 15:14:03,831 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:14:03] "POST /web/dataset/call_kw/school.student/web_search_read HTTP/1.1" 200 - 6 0.001 0.003
+2024-06-26 15:15:45,543 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:15:45] "POST /web/action/load HTTP/1.1" 200 - 11 0.004 0.008
+2024-06-26 15:15:46,144 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:15:46] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 38 0.010 0.017
+2024-06-26 15:15:46,813 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:15:46] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.014 0.013
+2024-06-26 15:15:46,816 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:15:46] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.005
+2024-06-26 15:15:50,018 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:15:50] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.005
+2024-06-26 15:15:50,028 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:15:50] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.015 0.009
+2024-06-26 15:15:53,558 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:15:53] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.011 0.009
+2024-06-26 15:15:53,798 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:15:53] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.003
+2024-06-26 15:15:57,581 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['school'] to user admin #2 via 172.19.0.1 
+2024-06-26 15:15:57,581 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['school'] to user admin #2 via 172.19.0.1 
+2024-06-26 15:15:57,582 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['school'] to user admin #2 via 172.19.0.1 
+2024-06-26 15:15:58,057 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 172.19.0.1 
+2024-06-26 15:15:58,100 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-06-26 15:15:58,109 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-26 15:15:58,132 1 INFO db_odoo odoo.modules.loading: updating modules list 
+2024-06-26 15:15:58,133 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.19.0.1 
+2024-06-26 15:15:58,558 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-06-26 15:15:58,558 1 INFO db_odoo odoo.modules.loading: Loading module school (3/74) 
+2024-06-26 15:15:58,581 1 INFO db_odoo odoo.modules.registry: module school: creating or updating database tables 
+2024-06-26 15:15:58,607 1 INFO db_odoo odoo.modules.loading: loading school/security/ir.model.access.csv 
+2024-06-26 15:15:58,615 1 INFO db_odoo odoo.modules.loading: loading school/views/views.xml 
+2024-06-26 15:15:58,667 1 INFO db_odoo odoo.modules.loading: loading school/views/templates.xml 
+2024-06-26 15:15:58,669 1 INFO db_odoo odoo.modules.loading: Module school: loading demo 
+2024-06-26 15:15:58,669 1 INFO db_odoo odoo.modules.loading: loading school/demo/demo.xml 
+2024-06-26 15:15:58,673 1 INFO db_odoo odoo.addons.base.models.ir_module: module school: no translation for language es_PE 
+2024-06-26 15:15:58,692 1 INFO db_odoo odoo.modules.loading: Module school loaded in 0.13s, 216 queries (+216 other) 
+2024-06-26 15:15:58,724 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.17s, 216 queries (+216 extra) 
+2024-06-26 15:15:59,062 1 INFO db_odoo odoo.modules.registry: verifying fields for every extended model 
+2024-06-26 15:15:59,462 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-06-26 15:15:59,472 1 INFO db_odoo odoo.modules.registry: Registry loaded in 1.389s 
+2024-06-26 15:15:59,472 1 INFO db_odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-06-26 15:15:59,475 1 INFO db_odoo odoo.modules.registry: Registry changed, signaling through the database 
+2024-06-26 15:15:59,475 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:15:59] "POST /web/dataset/call_button HTTP/1.1" 200 - 3432 0.970 0.928
+2024-06-26 15:15:59,746 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-26 15:16:00,176 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:00] "GET /web HTTP/1.1" 200 - 89 0.028 0.403
+2024-06-26 15:16:02,851 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:02] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 6 0.002 0.003
+2024-06-26 15:16:03,060 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:03] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.005
+2024-06-26 15:16:03,067 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:03] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 17 0.010 0.008
+2024-06-26 15:16:03,448 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:03] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 35 0.011 0.011
+2024-06-26 15:16:03,496 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:03] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.016 0.013
+2024-06-26 15:16:03,548 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:03] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-06-26 15:16:03,758 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:03] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.005 0.003
+2024-06-26 15:16:03,762 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:03] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.006 0.006
+2024-06-26 15:16:10,191 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:10] "POST /web/action/load HTTP/1.1" 200 - 10 0.002 0.005
+2024-06-26 15:16:10,399 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:10] "POST /web/dataset/call_kw/school.subject/get_views HTTP/1.1" 200 - 22 0.007 0.010
+2024-06-26 15:16:10,654 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:10] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.002
+2024-06-26 15:16:10,656 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:10] "POST /web/dataset/call_kw/school.subject/web_search_read HTTP/1.1" 200 - 6 0.003 0.003
+2024-06-26 15:16:14,733 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:14] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.006
+2024-06-26 15:16:15,002 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:15] "POST /web/dataset/call_kw/school.student/get_views HTTP/1.1" 200 - 15 0.004 0.008
+2024-06-26 15:16:15,249 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:15] "POST /web/dataset/call_kw/school.student/web_search_read HTTP/1.1" 200 - 7 0.002 0.003
+2024-06-26 15:16:16,605 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:16] "POST /web/dataset/call_kw/school.student/read HTTP/1.1" 200 - 5 0.001 0.003
+2024-06-26 15:16:17,092 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:17] "POST /web/dataset/call_kw/school.subject/read HTTP/1.1" 200 - 3 0.001 0.003
+2024-06-26 15:16:17,095 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:17] "POST /web/dataset/call_kw/school.grade/read HTTP/1.1" 200 - 1 0.000 0.002
+2024-06-26 15:16:30,560 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:30] "POST /web/action/load HTTP/1.1" 200 - 11 0.003 0.005
+2024-06-26 15:16:30,749 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:30] "POST /web/dataset/call_kw/school.grade/get_views HTTP/1.1" 200 - 6 0.002 0.004
+2024-06-26 15:16:31,028 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:31] "POST /web/dataset/call_kw/school.grade/onchange HTTP/1.1" 200 - 2 0.001 0.002
+2024-06-26 15:16:32,815 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:32] "POST /web/dataset/call_kw/school.student/name_search HTTP/1.1" 200 - 3 0.001 0.002
+2024-06-26 15:16:33,857 1 WARNING db_odoo odoo.models: onchange method grade._onchange_student_id returned a domain, this is deprecated 
+2024-06-26 15:16:33,857 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:33] "POST /web/dataset/call_kw/school.grade/onchange HTTP/1.1" 200 - 3 0.001 0.003
+2024-06-26 15:16:34,224 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:34] "POST /web/dataset/call_kw/school.subject/name_search HTTP/1.1" 200 - 3 0.001 0.003
+2024-06-26 15:16:46,358 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:46] "POST /web/dataset/call_kw/school.grade/create HTTP/1.1" 200 - 4 0.002 0.009
+2024-06-26 15:16:46,554 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:46] "POST /web/dataset/call_kw/school.grade/read HTTP/1.1" 200 - 4 0.001 0.003
+2024-06-26 15:16:50,777 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:50] "POST /web/dataset/call_kw/school.student/web_search_read HTTP/1.1" 200 - 6 0.001 0.003
+2024-06-26 15:16:52,267 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:52] "POST /web/dataset/call_kw/school.student/read HTTP/1.1" 200 - 5 0.001 0.003
+2024-06-26 15:16:52,453 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:52] "POST /web/dataset/call_kw/school.grade/read HTTP/1.1" 200 - 1 0.000 0.002
+2024-06-26 15:16:52,453 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:52] "POST /web/dataset/call_kw/school.subject/read HTTP/1.1" 200 - 3 0.002 0.003
+2024-06-26 15:16:56,686 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:56] "POST /web/dataset/call_kw/school.grade/get_views HTTP/1.1" 200 - 4 0.001 0.004
+2024-06-26 15:16:57,168 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:16:57] "POST /web/dataset/call_kw/school.grade/read HTTP/1.1" 200 - 4 0.001 0.003
+2024-06-26 15:16:59,175 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-26 15:16:59,179 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-26 15:17:30,849 1 INFO db_odoo werkzeug: 172.19.0.1 - - [26/Jun/2024 15:17:30] "POST /web/dataset/call_kw/school.grade/read HTTP/1.1" 200 - 4 0.001 0.003

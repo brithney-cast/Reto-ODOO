@@ -49,6 +49,7 @@
           <field name="age"/>
           <field name="final_exam_grade"/>
           <field name="subject_ids"/>
+          <field name="grade_ids"/>
         </tree>
       </field>
     </record>
@@ -65,6 +66,7 @@
               <field name="age"/>
               <field name="final_exam_grade"/>
               <field name="subject_ids"/>
+              <field name="grade_ids" readonly="1"/>
             </group>
           </sheet>
         </form>
@@ -116,6 +118,36 @@
                   <field name="date"/>
               </group>
           </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="school.student_grade_list_readonly">
+      <field name="name">Lista de Notas por Estudiante</field>
+      <field name="model">school.student</field>
+      <field name="arch" type="xml">
+        <form string="Estudiante" readonly="1">
+          <sheet>
+            <group>
+              <field name="name"/>
+              <field name="birth_date"/>
+              <field name="age"/>
+              <field name="final_exam_grade"/>
+              <field name="subject_ids"/>
+            </group>
+            <notebook>
+              <page string="Notas">
+                <field name="grade_ids" context="{'default_student_id': active_id}">
+                  <tree string="Notas">
+                    <field name="subject_id"/>
+                    <field name="grade"/>
+                    <field name="grade_type"/>
+                    <field name="date"/>
+                  </tree>
+                </field>
+              </page>
+            </notebook>
+          </sheet>
+        </form>
       </field>
     </record>
 
