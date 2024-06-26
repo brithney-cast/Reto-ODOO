@@ -228,3 +228,600 @@
 2024-06-26 06:29:57,703 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:29:57] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.004
 2024-06-26 06:29:58,317 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 06:29:58] "GET /base/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
 2024-06-26 06:29:58,321 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 06:29:58] "GET /l10n_ar_website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 06:50:33,766 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:33] "GET / HTTP/1.1" 303 - 2 0.001 0.003
+2024-06-26 06:50:34,031 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:34] "GET /web HTTP/1.1" 200 - 9 0.004 0.006
+2024-06-26 06:50:35,822 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:35] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 9 0.003 0.019
+2024-06-26 06:50:35,834 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:35] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.003 0.004
+2024-06-26 06:50:35,986 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:35] "POST /web/action/load HTTP/1.1" 200 - 10 0.002 0.004
+2024-06-26 06:50:36,244 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:36] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.001 0.004
+2024-06-26 06:50:36,376 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:36] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.003
+2024-06-26 06:50:36,661 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.010 0.009
+2024-06-26 06:50:36,800 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:36] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.005
+2024-06-26 06:50:40,699 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:40] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.006
+2024-06-26 06:50:40,711 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:40] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.011 0.008
+2024-06-26 06:50:42,692 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:42] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.004
+2024-06-26 06:50:42,700 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:42] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.013 0.009
+2024-06-26 06:50:51,217 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:51] "POST /web/action/load HTTP/1.1" 200 - 12 0.003 0.005
+2024-06-26 06:50:51,399 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:51] "POST /web/dataset/call_kw/res.users/get_views HTTP/1.1" 200 - 13 0.003 0.010
+2024-06-26 06:50:52,033 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:52] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.002
+2024-06-26 06:50:52,039 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:52] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.005
+2024-06-26 06:50:56,465 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:50:56] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 06:51:02,517 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:02] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 06:51:02,880 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:02] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 06:51:03,226 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:03] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 06:51:05,676 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:05] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 06:51:09,804 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:09] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.004
+2024-06-26 06:51:09,816 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:09] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.013 0.009
+2024-06-26 06:51:13,903 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:13] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.005
+2024-06-26 06:51:13,905 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:13] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.013 0.008
+2024-06-26 06:51:19,204 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:19] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.010 0.008
+2024-06-26 06:51:19,427 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:19] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.002
+2024-06-26 06:51:24,818 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:24] "GET /web HTTP/1.1" 200 - 9 0.003 0.005
+2024-06-26 06:51:26,105 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:26] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.002 0.006
+2024-06-26 06:51:26,105 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:26] "POST /web/action/load HTTP/1.1" 200 - 10 0.005 0.006
+2024-06-26 06:51:26,192 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:26] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.002 0.005
+2024-06-26 06:51:26,457 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:26] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.002 0.006
+2024-06-26 06:51:26,463 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:26] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 10 0.009 0.004
+2024-06-26 06:51:26,634 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:26] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.003
+2024-06-26 06:51:26,837 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:26] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.011 0.009
+2024-06-26 06:51:26,841 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:26] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.005
+2024-06-26 06:51:29,975 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:29] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.006
+2024-06-26 06:51:29,986 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:29] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.011 0.008
+2024-06-26 06:51:32,636 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:32] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.011 0.008
+2024-06-26 06:51:32,837 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:51:32] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.002
+2024-06-26 06:53:44,527 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:44] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.002
+2024-06-26 06:53:45,110 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:45] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.002
+2024-06-26 06:53:47,066 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:47] "GET /web HTTP/1.1" 200 - 9 0.002 0.005
+2024-06-26 06:53:48,449 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:48] "POST /web/action/load HTTP/1.1" 200 - 10 0.002 0.004
+2024-06-26 06:53:48,587 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:48] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.004 0.003
+2024-06-26 06:53:48,676 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:48] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.003 0.011
+2024-06-26 06:53:48,748 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:48] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.002 0.004
+2024-06-26 06:53:48,858 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:48] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.001 0.005
+2024-06-26 06:53:48,965 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:48] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.001 0.003
+2024-06-26 06:53:49,113 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:49] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-06-26 06:53:49,200 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:49] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.001 0.004
+2024-06-26 06:53:49,281 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:49] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.004
+2024-06-26 06:53:49,285 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.014 0.009
+2024-06-26 06:53:55,365 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:55] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.009 0.008
+2024-06-26 06:53:55,576 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:55] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2024-06-26 06:53:55,746 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:55] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2024-06-26 06:53:56,019 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:56] "GET /web/static/img/empty_folder.svg HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 06:53:57,890 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.010 0.008
+2024-06-26 06:53:58,175 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:53:58] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.003
+2024-06-26 06:57:16,844 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 06:57:16] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-06-26 06:59:45,265 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-06-26 06:59:45,265 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-06-26 07:00:17,970 1 INFO ? odoo: Odoo version 16.0-20240624 
+2024-06-26 07:00:17,970 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-06-26 07:00:17,971 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-06-26 07:00:17,971 1 INFO ? odoo: database: odoo@db_postgresql:5432 
+2024-06-26 07:00:18,099 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-06-26 07:00:18,486 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on ea860d131779:8069 
+2024-06-26 07:00:22,569 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-06-26 07:00:22,574 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-26 07:00:22,578 1 INFO db_odoo odoo.modules.loading: loading 8 modules... 
+2024-06-26 07:00:22,650 1 INFO db_odoo odoo.modules.loading: 8 modules loaded in 0.07s, 0 queries (+0 extra) 
+2024-06-26 07:00:22,673 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-06-26 07:00:22,674 1 INFO db_odoo odoo.modules.registry: Registry loaded in 0.119s 
+2024-06-26 07:00:22,675 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-26 07:00:22,747 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:22] "GET / HTTP/1.1" 303 - 23 0.014 0.180
+2024-06-26 07:00:24,145 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:24] "GET /web HTTP/1.1" 200 - 80 0.028 1.008
+2024-06-26 07:00:26,039 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:26] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 6 0.002 0.007
+2024-06-26 07:00:26,124 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:26] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.011 0.009
+2024-06-26 07:00:26,572 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:26] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-06-26 07:00:26,691 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-06-26 07:00:26,934 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'school', defaulting to LGPL-3 
+2024-06-26 07:00:26,934 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'school', defaulting to LGPL-3 
+2024-06-26 07:00:26,966 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:26] "POST /web/action/load HTTP/1.1" 200 - 12 0.013 0.922
+2024-06-26 07:00:26,968 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:26] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 10 0.018 0.487
+2024-06-26 07:00:27,308 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:27] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.014 0.017
+2024-06-26 07:00:27,672 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:27] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.012 0.009
+2024-06-26 07:00:27,828 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:27] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.004
+2024-06-26 07:00:34,085 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.010 0.009
+2024-06-26 07:00:34,251 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:34] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2024-06-26 07:00:36,282 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.011 0.008
+2024-06-26 07:00:36,434 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:36] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.002
+2024-06-26 07:00:38,832 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.010 0.011
+2024-06-26 07:00:38,833 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:38] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.005
+2024-06-26 07:00:47,982 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:47] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.010 0.008
+2024-06-26 07:00:48,151 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:00:48] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.002
+2024-06-26 07:01:41,467 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:01:41] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.004
+2024-06-26 07:01:41,532 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:01:41] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.008 0.008
+2024-06-26 07:01:45,336 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:01:45] "POST /web/action/load HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 07:03:19,835 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-06-26 07:03:19,836 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-06-26 07:03:20,094 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2024-06-26 07:03:21,349 1 INFO ? odoo: Odoo version 16.0-20240624 
+2024-06-26 07:03:21,349 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-06-26 07:03:21,349 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-06-26 07:03:21,349 1 INFO ? odoo: database: odoo@db_postgresql:5432 
+2024-06-26 07:03:21,432 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-06-26 07:03:21,554 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on ea860d131779:8069 
+2024-06-26 07:03:22,733 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-06-26 07:03:22,742 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-26 07:03:22,745 1 INFO db_odoo odoo.modules.loading: loading 8 modules... 
+2024-06-26 07:03:22,787 1 INFO db_odoo odoo.modules.loading: 8 modules loaded in 0.04s, 0 queries (+0 extra) 
+2024-06-26 07:03:22,808 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-06-26 07:03:22,809 1 INFO db_odoo odoo.modules.registry: Registry loaded in 0.091s 
+2024-06-26 07:03:22,810 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-26 07:03:22,891 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:22] "GET /websocket HTTP/1.1" 101 - 22 0.012 0.160
+2024-06-26 07:03:23,042 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-06-26 07:03:37,443 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:37] "GET / HTTP/1.1" 303 - 2 0.001 0.002
+2024-06-26 07:03:38,740 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:38] "GET /web HTTP/1.1" 200 - 79 0.023 0.909
+2024-06-26 07:03:40,133 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:40] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.002 0.005
+2024-06-26 07:03:40,265 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:40] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.005 0.007
+2024-06-26 07:03:40,463 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'school', defaulting to LGPL-3 
+2024-06-26 07:03:40,472 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:40] "POST /web/action/load HTTP/1.1" 200 - 12 0.004 0.190
+2024-06-26 07:03:40,656 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:40] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.014 0.022
+2024-06-26 07:03:40,753 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:40] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-06-26 07:03:41,008 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:41] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.010 0.009
+2024-06-26 07:03:41,020 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:41] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.004
+2024-06-26 07:03:49,434 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.010 0.010
+2024-06-26 07:03:49,587 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:49] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2024-06-26 07:03:53,014 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:53] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.008 0.008
+2024-06-26 07:03:53,363 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:53] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.004
+2024-06-26 07:03:54,440 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.011 0.010
+2024-06-26 07:03:54,445 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.013
+2024-06-26 07:03:56,439 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:56] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.011 0.008
+2024-06-26 07:03:56,597 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:03:56] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.003
+2024-06-26 07:05:43,668 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:05:43] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.007
+2024-06-26 07:05:43,684 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:05:43] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.008 0.009
+2024-06-26 07:05:44,414 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:05:44] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.010 0.009
+2024-06-26 07:05:44,652 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:05:44] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.003 0.003
+2024-06-26 07:05:46,872 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:05:46] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.009 0.008
+2024-06-26 07:05:46,880 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:05:46] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.004
+2024-06-26 07:05:53,994 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:05:53] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.008 0.008
+2024-06-26 07:05:54,151 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:05:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.005
+2024-06-26 07:05:54,704 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:05:54] "GET /website_crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:05:54,707 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:05:54] "GET /hr_work_entry_contract/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-06-26 07:05:54,711 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:05:54] "GET /account_check_printing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-06-26 07:05:54,839 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:05:54] "GET /hr_timesheet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-06-26 07:06:20,760 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:06:20] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.008 0.008
+2024-06-26 07:06:20,920 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:06:20] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.005
+2024-06-26 07:06:54,142 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:06:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.005
+2024-06-26 07:06:54,906 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:06:54] "GET /event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-06-26 07:06:54,913 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:06:54] "GET /google_gmail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:06:55,063 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:06:55] "GET /google_calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:10,614 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:10] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.004
+2024-06-26 07:07:11,258 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_at/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:11,273 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /iap/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:11,275 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_ae/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-06-26 07:07:11,318 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_cl/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:11,320 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_bo/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:11,323 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_de/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:11,325 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_co/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:11,339 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_au/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:11,340 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_cz/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-06-26 07:07:11,341 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_dk/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-06-26 07:07:11,343 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_do/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-06-26 07:07:11,440 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_ec/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:11,444 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_ee/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-06-26 07:07:11,447 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_br/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:11,537 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_cn/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:11,585 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_et/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:11,587 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_hk/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-06-26 07:07:11,615 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_id/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:11,615 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_ie/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:11,620 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_hr_euro/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-06-26 07:07:11,621 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /base/static/img/country_flags/ar.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-06-26 07:07:11,624 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_es/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-06-26 07:07:11,625 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_it/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-06-26 07:07:11,627 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_hn/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-06-26 07:07:11,629 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_gr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-06-26 07:07:11,641 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:11,642 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_fi/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-06-26 07:07:11,643 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_il/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:11,644 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_generic_coa/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:11,646 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_gt/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2024-06-26 07:07:11,654 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_hu/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:11,654 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_eg_edi_eta/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-06-26 07:07:11,656 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_fr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:11,658 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_fi_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:11,669 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_in/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:11,682 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_dz/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:11,688 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_cr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-06-26 07:07:11,689 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_ca/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2024-06-26 07:07:11,691 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_ch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.014
+2024-06-26 07:07:11,693 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_be/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-06-26 07:07:11,697 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:11] "GET /l10n_bg/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2024-06-26 07:07:16,771 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:16] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.005
+2024-06-26 07:07:17,318 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_jp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:17,320 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_lt/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:17,325 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_lu/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:17,326 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_ma/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:17,336 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_mx/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:17,343 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /base/static/img/country_flags/my.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:17,346 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_mn/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:17,351 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_mz/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:17,409 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_no/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:17,411 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_nz/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:17,411 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_nl/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:17,493 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /base/static/img/country_flags/ph.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:17,501 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_pe/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:17,502 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_pl/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-06-26 07:07:17,503 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_pa/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-06-26 07:07:17,505 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_pk/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-06-26 07:07:17,507 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_rs/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-06-26 07:07:17,509 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_sg/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:17,534 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_pt/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:17,546 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_sk/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:17,551 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_ro/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:17,558 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_ua/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:17,574 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /microsoft_outlook/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:17,576 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_th/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-06-26 07:07:17,583 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_ve/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:17,593 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /base/static/img/country_flags/tw.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:17,594 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /mail_bot/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:17,594 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_tr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-06-26 07:07:17,596 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_sa/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:17,599 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_se/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2024-06-26 07:07:17,603 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_za/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:17,603 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_uy/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-06-26 07:07:17,604 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /microsoft_calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:17,608 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /membership/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-06-26 07:07:17,611 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_si/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:17,612 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_vn/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:17,614 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_us/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-06-26 07:07:17,619 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_syscohada/static/description/icon.jpeg HTTP/1.1" 200 - 0 0.000 0.022
+2024-06-26 07:07:17,624 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:17] "GET /l10n_uk/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:26,868 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:26] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.004
+2024-06-26 07:07:27,395 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:27] "GET /sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:27,411 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:27] "GET /base/static/img/icons/payment_sepa_direct_debit.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-06-26 07:07:27,416 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:27] "GET /sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:27,420 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:27] "GET /payment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:27,425 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:27] "GET /sale_timesheet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-06-26 07:07:27,426 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:27] "GET /snailmail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:27,427 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:27] "GET /partner_autocomplete/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:27,428 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:27] "GET /spreadsheet_dashboard/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-06-26 07:07:27,429 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:27] "GET /product/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:38,432 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:38] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.005
+2024-06-26 07:07:39,087 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /test_exceptions/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,095 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /transifex/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,100 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /utm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,108 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /web_unsplash/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,113 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_crm_partner_assign/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,167 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_customer/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,172 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_event_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,177 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_event_questions/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,180 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_event_track/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,185 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_form_project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,212 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_links/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-06-26 07:07:39,227 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_sale_stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,230 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_payment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,231 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_google_map/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:39,233 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:39,234 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_twitter/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,236 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_sale_delivery/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,238 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_sale_loyalty/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,243 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_sale_wishlist/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,244 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_membership/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,250 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_partner/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,253 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,259 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_sale_digital/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:39,260 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:39] "GET /website_sale_comparison/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:48,089 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.004
+2024-06-26 07:07:48,754 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /base/static/img/icons/website_twitter_wall.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-06-26 07:07:48,760 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /website_blog/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:48,769 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /gamification/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-06-26 07:07:48,772 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /board/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-06-26 07:07:48,825 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-06-26 07:07:48,825 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /website_forum/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-06-26 07:07:48,842 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:48,848 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_aps/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:48,852 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-06-26 07:07:48,852 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_asiapay/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-06-26 07:07:48,866 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_demo/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:48,878 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /theme_default/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:48,882 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:48,885 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_sips/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:48,892 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-06-26 07:07:48,892 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_flutterwave/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-06-26 07:07:48,898 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_razorpay/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:48,899 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-06-26 07:07:48,902 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:07:48,932 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_custom/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-06-26 07:07:48,933 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_mollie/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:48,934 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_mercado_pago/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:48,935 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_ogone/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-06-26 07:07:48,935 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:48] "GET /payment_payulatam/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-06-26 07:07:59,683 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:07:59] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.005
+2024-06-26 07:08:00,834 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:08:00] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.004
+2024-06-26 07:08:01,851 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:08:01] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.004
+2024-06-26 07:08:13,427 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:08:13] "POST /web/dataset/call_kw/res.users/action_get HTTP/1.1" 200 - 25 0.008 0.010
+2024-06-26 07:08:13,606 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:08:13] "POST /web/dataset/call_kw/res.users/get_views HTTP/1.1" 200 - 26 0.009 0.016
+2024-06-26 07:08:13,975 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:08:13] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 25 0.009 0.010
+2024-06-26 07:08:14,330 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:08:14] "GET /web/bundle/web_editor.assets_wysiwyg?lang=es_PE HTTP/1.1" 200 - 11 0.003 0.041
+2024-06-26 07:08:14,685 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:08:14] "POST /web/dataset/call_kw/ HTTP/1.1" 200 - 12 0.003 0.007
+2024-06-26 07:08:28,639 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:08:28] "POST /web/session/account HTTP/1.1" 200 - 2 0.001 0.002
+2024-06-26 07:08:35,985 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:08:35] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.003 0.005
+2024-06-26 07:08:36,010 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:08:36] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.005
+2024-06-26 07:08:36,068 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:08:36] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.001 0.003
+2024-06-26 07:08:36,249 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:08:36] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.001 0.005
+2024-06-26 07:08:36,542 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:08:36] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-06-26 07:08:36,607 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:08:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.012 0.009
+2024-06-26 07:08:36,611 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:08:36] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.005
+2024-06-26 07:12:08,598 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:12:08] "POST /web/action/load HTTP/1.1" 200 - 25 0.008 0.013
+2024-06-26 07:12:08,837 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:12:08] "POST /web/dataset/call_kw/res.users/get_views HTTP/1.1" 200 - 37 0.009 0.022
+2024-06-26 07:12:09,512 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:12:09] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 07:12:09,521 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:12:09] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.002
+2024-06-26 07:12:11,073 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:12:11] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 07:12:12,579 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:12:12] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.004 0.005
+2024-06-26 07:12:12,579 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:12:12] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.003 0.006
+2024-06-26 07:12:13,866 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:12:13] "POST /web/action/load HTTP/1.1" 200 - 10 0.002 0.004
+2024-06-26 07:12:14,032 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:12:14] "POST /web/dataset/call_kw/res.company/get_views HTTP/1.1" 200 - 28 0.008 0.015
+2024-06-26 07:12:14,523 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:12:14] "POST /web/dataset/call_kw/res.company/web_search_read HTTP/1.1" 200 - 8 0.002 0.003
+2024-06-26 07:12:14,925 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:12:14] "GET /web/static/img/openhand.cur HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:12:18,136 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:12:18] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 07:12:19,260 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:12:19] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 07:12:19,446 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:12:19] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 07:12:21,887 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:12:21] "POST /web/dataset/call_kw/res.company/web_search_read HTTP/1.1" 200 - 4 0.001 0.003
+2024-06-26 07:18:00,181 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:00] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 07:18:03,693 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:03] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 26 0.006 0.010
+2024-06-26 07:18:04,062 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:04] "POST /web/dataset/call_kw/res.company/read HTTP/1.1" 200 - 2 0.001 0.002
+2024-06-26 07:18:09,947 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:09] "POST /web/dataset/call_kw/res.users/onchange HTTP/1.1" 200 - 11 0.003 0.522
+2024-06-26 07:18:12,430 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:12] "GET /web/bundle/web_editor.assets_wysiwyg?lang=es_PE HTTP/1.1" 200 - 1 0.000 0.002
+2024-06-26 07:18:12,771 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:12] "POST /web/dataset/call_kw/ HTTP/1.1" 200 - 6 0.002 0.003
+2024-06-26 07:18:26,729 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:26] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 07:18:29,630 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:29] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 07:18:31,525 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:31] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 07:18:33,981 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:33] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 07:18:36,277 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:36] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 23 0.006 0.010
+2024-06-26 07:18:36,428 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:36] "POST /web/dataset/call_kw/res.company/read HTTP/1.1" 200 - 2 0.001 0.002
+2024-06-26 07:18:46,633 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:46] "POST /web/dataset/call_kw/res.users/onchange HTTP/1.1" 200 - 10 0.003 0.008
+2024-06-26 07:18:52,814 1 INFO db_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-06-26 07:18:52,815 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:52] "POST /web/dataset/call_kw/res.users/write HTTP/1.1" 200 - 48 0.013 0.020
+2024-06-26 07:18:52,991 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:52] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 50 0.013 0.014
+2024-06-26 07:18:53,141 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:53] "POST /web/dataset/call_kw/res.company/read HTTP/1.1" 200 - 2 0.001 0.002
+2024-06-26 07:18:53,330 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:53] "GET /web/image?model=res.users&id=2&field=avatar_128&unique=1719386332000 HTTP/1.1" 200 - 17 0.005 0.006
+2024-06-26 07:18:57,061 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:18:57] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 07:19:02,958 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:19:02] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 07:19:11,861 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:19:11] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 24 0.006 0.010
+2024-06-26 07:19:12,022 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:19:12] "POST /web/dataset/call_kw/res.company/read HTTP/1.1" 200 - 2 0.001 0.002
+2024-06-26 07:19:15,297 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:19:15] "POST /web/dataset/call_kw/res.users/onchange HTTP/1.1" 200 - 12 0.003 0.009
+2024-06-26 07:19:17,464 1 INFO db_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-06-26 07:19:17,465 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:19:17] "POST /web/dataset/call_kw/res.users/write HTTP/1.1" 200 - 50 0.013 0.017
+2024-06-26 07:19:17,642 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:19:17] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 49 0.012 0.013
+2024-06-26 07:19:17,797 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:19:17] "POST /web/dataset/call_kw/res.company/read HTTP/1.1" 200 - 2 0.001 0.003
+2024-06-26 07:19:18,069 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:19:18] "GET /web/image?model=res.users&id=2&field=avatar_128&unique=1719386357000 HTTP/1.1" 200 - 17 0.005 0.008
+2024-06-26 07:19:20,783 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:19:20] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.003 0.005
+2024-06-26 07:21:37,551 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:21:37] "POST /web/webclient/version_info HTTP/1.1" 200 - 1 0.000 0.002
+2024-06-26 07:21:37,556 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:21:37] "GET /web/static/img/spin.svg HTTP/1.1" 200 - 0 0.000 0.001
+2024-06-26 07:21:56,388 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:21:56] "POST /web/dataset/call_kw/res.users/action_get HTTP/1.1" 200 - 27 0.006 0.010
+2024-06-26 07:21:56,737 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:21:56] "POST /web/dataset/call_kw/res.users/get_views HTTP/1.1" 200 - 30 0.009 0.015
+2024-06-26 07:21:57,694 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:21:57] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 16 0.005 0.008
+2024-06-26 07:22:12,346 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:12] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 45 0.012 0.017
+2024-06-26 07:22:12,669 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:12] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.011 0.010
+2024-06-26 07:22:12,823 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:12] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.004
+2024-06-26 07:22:17,765 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:17] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.009 0.008
+2024-06-26 07:22:17,917 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:17] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2024-06-26 07:22:19,899 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:19] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.010 0.008
+2024-06-26 07:22:20,050 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:20] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.003
+2024-06-26 07:22:25,661 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Base'] to user admin #2 via 172.20.0.1 
+2024-06-26 07:22:25,661 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Base'] to user admin #2 via 172.20.0.1 
+2024-06-26 07:22:25,661 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Base'] to user admin #2 via 172.20.0.1 
+2024-06-26 07:22:26,139 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 172.20.0.1 
+2024-06-26 07:22:26,195 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-06-26 07:22:26,196 1 INFO db_odoo odoo.modules.loading: Loading module base (1/1) 
+2024-06-26 07:22:26,213 1 INFO db_odoo odoo.modules.registry: module base: creating or updating database tables 
+2024-06-26 07:22:26,663 1 INFO db_odoo odoo.modules.loading: loading base/data/res_bank.xml 
+2024-06-26 07:22:26,667 1 INFO db_odoo odoo.modules.loading: loading base/data/res.lang.csv 
+2024-06-26 07:22:26,762 1 INFO db_odoo odoo.modules.loading: loading base/data/res_lang_data.xml 
+2024-06-26 07:22:26,787 1 INFO db_odoo odoo.modules.loading: loading base/data/res_partner_data.xml 
+2024-06-26 07:22:26,805 1 INFO db_odoo odoo.modules.loading: loading base/data/res_currency_data.xml 
+2024-06-26 07:22:26,880 1 INFO db_odoo odoo.modules.loading: loading base/data/res_company_data.xml 
+2024-06-26 07:22:26,884 1 INFO db_odoo odoo.modules.loading: loading base/data/res_users_data.xml 
+2024-06-26 07:22:26,888 1 INFO db_odoo odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2024-06-26 07:22:26,890 1 INFO db_odoo odoo.modules.loading: loading base/data/res_country_data.xml 
+2024-06-26 07:22:26,993 1 INFO db_odoo odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2024-06-26 07:22:27,003 1 INFO db_odoo odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2024-06-26 07:22:27,005 1 INFO db_odoo odoo.modules.loading: loading base/security/base_groups.xml 
+2024-06-26 07:22:27,140 1 INFO db_odoo odoo.modules.loading: loading base/security/base_security.xml 
+2024-06-26 07:22:27,153 1 INFO db_odoo odoo.modules.loading: loading base/views/base_menus.xml 
+2024-06-26 07:22:27,217 1 INFO db_odoo odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2024-06-26 07:22:27,236 1 INFO db_odoo odoo.modules.loading: loading base/views/res_config_views.xml 
+2024-06-26 07:22:27,248 1 INFO db_odoo odoo.modules.loading: loading base/data/res.country.state.csv 
+2024-06-26 07:22:28,042 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2024-06-26 07:22:28,151 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2024-06-26 07:22:28,169 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2024-06-26 07:22:28,184 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2024-06-26 07:22:28,211 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2024-06-26 07:22:28,227 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2024-06-26 07:22:28,245 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2024-06-26 07:22:28,267 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_model_views.xml 
+2024-06-26 07:22:28,414 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2024-06-26 07:22:28,438 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2024-06-26 07:22:28,485 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2024-06-26 07:22:28,507 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2024-06-26 07:22:28,526 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2024-06-26 07:22:28,571 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_default_views.xml 
+2024-06-26 07:22:28,588 1 INFO db_odoo odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2024-06-26 07:22:28,594 1 INFO db_odoo odoo.modules.loading: loading base/report/ir_model_report.xml 
+2024-06-26 07:22:28,605 1 INFO db_odoo odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2024-06-26 07:22:28,622 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2024-06-26 07:22:28,640 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2024-06-26 07:22:28,652 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_module_views.xml 
+2024-06-26 07:22:28,715 1 INFO db_odoo odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2024-06-26 07:22:28,817 1 INFO db_odoo odoo.modules.loading: loading base/data/ir_module_module.xml 
+2024-06-26 07:22:28,839 1 INFO db_odoo odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2024-06-26 07:22:28,841 1 INFO db_odoo odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2024-06-26 07:22:28,851 1 INFO db_odoo odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2024-06-26 07:22:28,861 1 INFO db_odoo odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2024-06-26 07:22:28,872 1 INFO db_odoo odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2024-06-26 07:22:28,882 1 INFO db_odoo odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2024-06-26 07:22:28,898 1 INFO db_odoo odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2024-06-26 07:22:28,907 1 INFO db_odoo odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2024-06-26 07:22:28,918 1 INFO db_odoo odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2024-06-26 07:22:28,933 1 INFO ? werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:28] "GET /web/static/img/spin.svg HTTP/1.1" 200 - 0 0.000 0.002
+2024-06-26 07:22:28,937 1 INFO db_odoo odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2024-06-26 07:22:28,940 1 INFO db_odoo odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2024-06-26 07:22:28,950 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2024-06-26 07:22:28,972 1 INFO db_odoo odoo.modules.loading: loading base/views/res_company_views.xml 
+2024-06-26 07:22:28,994 1 INFO db_odoo odoo.modules.loading: loading base/views/res_lang_views.xml 
+2024-06-26 07:22:29,018 1 INFO db_odoo odoo.modules.loading: loading base/views/res_partner_views.xml 
+2024-06-26 07:22:29,127 1 INFO db_odoo odoo.modules.loading: loading base/views/res_bank_views.xml 
+2024-06-26 07:22:29,160 1 INFO db_odoo odoo.modules.loading: loading base/views/res_country_views.xml 
+2024-06-26 07:22:29,198 1 INFO db_odoo odoo.modules.loading: loading base/views/res_currency_views.xml 
+2024-06-26 07:22:29,234 1 INFO db_odoo odoo.modules.loading: loading base/views/res_users_views.xml 
+2024-06-26 07:22:29,377 1 INFO db_odoo odoo.modules.loading: loading base/views/ir_property_views.xml 
+2024-06-26 07:22:29,399 1 INFO db_odoo odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2024-06-26 07:22:29,407 1 INFO db_odoo odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2024-06-26 07:22:29,433 1 INFO db_odoo odoo.modules.loading: loading base/views/onboarding_views.xml 
+2024-06-26 07:22:29,468 1 INFO db_odoo odoo.modules.loading: loading base/security/ir.model.access.csv 
+2024-06-26 07:22:29,642 1 INFO db_odoo odoo.modules.loading: Module base: loading demo 
+2024-06-26 07:22:29,642 1 INFO db_odoo odoo.modules.loading: loading base/data/res_company_demo.xml 
+2024-06-26 07:22:29,643 1 INFO db_odoo odoo.modules.loading: loading base/data/res_users_demo.xml 
+2024-06-26 07:22:29,648 1 INFO db_odoo odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2024-06-26 07:22:29,650 1 INFO db_odoo odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2024-06-26 07:22:29,716 1 INFO db_odoo odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2024-06-26 07:22:29,718 1 INFO db_odoo odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2024-06-26 07:22:29,934 1 INFO db_odoo odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2024-06-26 07:22:30,014 1 INFO db_odoo odoo.addons.base.models.ir_module: module base: loading base translation file es for language es_PE 
+2024-06-26 07:22:30,396 1 INFO db_odoo odoo.addons.base.models.ir_module: module base: loading translation file es_PE for language es_PE 
+2024-06-26 07:22:31,267 1 INFO db_odoo odoo.modules.loading: Module base loaded in 5.07s, 8298 queries (+8298 other) 
+2024-06-26 07:22:31,267 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 5.07s, 8298 queries (+8298 extra) 
+2024-06-26 07:22:31,279 1 INFO db_odoo odoo.modules.loading: updating modules list 
+2024-06-26 07:22:31,280 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.20.0.1 
+2024-06-26 07:22:31,723 1 INFO db_odoo odoo.modules.loading: loading 8 modules... 
+2024-06-26 07:22:31,723 1 INFO db_odoo odoo.modules.loading: Loading module web (2/8) 
+2024-06-26 07:22:31,751 1 INFO db_odoo odoo.modules.registry: module web: creating or updating database tables 
+2024-06-26 07:22:32,070 1 INFO db_odoo odoo.modules.loading: loading web/security/ir.model.access.csv 
+2024-06-26 07:22:32,074 1 INFO db_odoo odoo.modules.loading: loading web/views/webclient_templates.xml 
+2024-06-26 07:22:32,145 1 INFO db_odoo odoo.modules.loading: loading web/views/report_templates.xml 
+2024-06-26 07:22:32,245 1 INFO db_odoo odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2024-06-26 07:22:32,256 1 INFO db_odoo odoo.modules.loading: loading web/views/speedscope_template.xml 
+2024-06-26 07:22:32,261 1 INFO db_odoo odoo.modules.loading: loading web/views/lazy_assets.xml 
+2024-06-26 07:22:32,266 1 INFO db_odoo odoo.modules.loading: loading web/views/neutralize_views.xml 
+2024-06-26 07:22:32,273 1 INFO db_odoo odoo.modules.loading: loading web/data/ir_attachment.xml 
+2024-06-26 07:22:32,276 1 INFO db_odoo odoo.modules.loading: loading web/data/report_layout.xml 
+2024-06-26 07:22:32,298 1 INFO db_odoo odoo.addons.base.models.ir_module: module web: loading base translation file es for language es_PE 
+2024-06-26 07:22:32,349 1 INFO db_odoo odoo.addons.base.models.ir_module: module web: loading translation file es_PE for language es_PE 
+2024-06-26 07:22:32,429 1 INFO db_odoo odoo.modules.loading: Module web loaded in 0.71s, 1105 queries (+1105 other) 
+2024-06-26 07:22:32,429 1 INFO db_odoo odoo.modules.loading: Loading module auth_totp (3/8) 
+2024-06-26 07:22:32,453 1 INFO db_odoo odoo.modules.registry: module auth_totp: creating or updating database tables 
+2024-06-26 07:22:32,478 1 INFO db_odoo odoo.modules.loading: loading auth_totp/security/security.xml 
+2024-06-26 07:22:32,495 1 INFO db_odoo odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2024-06-26 07:22:32,500 1 INFO db_odoo odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2024-06-26 07:22:32,504 1 INFO db_odoo odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2024-06-26 07:22:32,532 1 INFO db_odoo odoo.modules.loading: loading auth_totp/views/templates.xml 
+2024-06-26 07:22:32,540 1 INFO db_odoo odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2024-06-26 07:22:32,551 1 INFO db_odoo odoo.addons.base.models.ir_module: module auth_totp: loading base translation file es for language es_PE 
+2024-06-26 07:22:32,555 1 INFO db_odoo odoo.addons.base.models.ir_module: module auth_totp: no translation for language es_PE 
+2024-06-26 07:22:32,579 1 INFO db_odoo odoo.modules.loading: Module auth_totp loaded in 0.15s, 190 queries (+190 other) 
+2024-06-26 07:22:32,579 1 INFO db_odoo odoo.modules.loading: Loading module base_import (4/8) 
+2024-06-26 07:22:32,612 1 INFO db_odoo odoo.modules.registry: module base_import: creating or updating database tables 
+2024-06-26 07:22:32,978 1 INFO db_odoo odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2024-06-26 07:22:33,002 1 INFO db_odoo odoo.addons.base.models.ir_module: module base_import: loading base translation file es for language es_PE 
+2024-06-26 07:22:33,012 1 INFO db_odoo odoo.addons.base.models.ir_module: module base_import: loading translation file es_PE for language es_PE 
+2024-06-26 07:22:33,039 1 INFO db_odoo odoo.modules.loading: Module base_import loaded in 0.46s, 729 queries (+729 other) 
+2024-06-26 07:22:33,039 1 INFO db_odoo odoo.modules.loading: Loading module bus (5/8) 
+2024-06-26 07:22:33,066 1 INFO db_odoo odoo.modules.registry: module bus: creating or updating database tables 
+2024-06-26 07:22:33,105 1 INFO db_odoo odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2024-06-26 07:22:33,113 1 INFO db_odoo odoo.addons.base.models.ir_module: module bus: loading base translation file es for language es_PE 
+2024-06-26 07:22:33,115 1 INFO db_odoo odoo.addons.base.models.ir_module: module bus: loading translation file es_PE for language es_PE 
+2024-06-26 07:22:33,128 1 INFO db_odoo odoo.modules.loading: Module bus loaded in 0.09s, 89 queries (+89 other) 
+2024-06-26 07:22:33,129 1 INFO db_odoo odoo.modules.loading: Loading module web_kanban_gauge (6/8) 
+2024-06-26 07:22:33,166 1 INFO db_odoo odoo.addons.base.models.ir_module: module web_kanban_gauge: loading base translation file es for language es_PE 
+2024-06-26 07:22:33,167 1 INFO db_odoo odoo.addons.base.models.ir_module: module web_kanban_gauge: loading translation file es_PE for language es_PE 
+2024-06-26 07:22:33,176 1 INFO db_odoo odoo.modules.loading: Module web_kanban_gauge loaded in 0.05s, 16 queries (+16 other) 
+2024-06-26 07:22:33,177 1 INFO db_odoo odoo.modules.loading: Loading module web_tour (7/8) 
+2024-06-26 07:22:33,203 1 INFO db_odoo odoo.modules.registry: module web_tour: creating or updating database tables 
+2024-06-26 07:22:33,218 1 INFO db_odoo odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2024-06-26 07:22:33,223 1 INFO db_odoo odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2024-06-26 07:22:33,228 1 INFO db_odoo odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2024-06-26 07:22:33,246 1 INFO db_odoo odoo.addons.base.models.ir_module: module web_tour: loading base translation file es for language es_PE 
+2024-06-26 07:22:33,290 1 INFO db_odoo odoo.addons.base.models.ir_module: module web_tour: no translation for language es_PE 
+2024-06-26 07:22:33,306 1 INFO db_odoo odoo.modules.loading: Module web_tour loaded in 0.13s, 102 queries (+102 other) 
+2024-06-26 07:22:33,306 1 INFO db_odoo odoo.modules.loading: Loading module web_editor (8/8) 
+2024-06-26 07:22:33,347 1 INFO db_odoo odoo.modules.registry: module web_editor: creating or updating database tables 
+2024-06-26 07:22:33,741 1 INFO db_odoo odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2024-06-26 07:22:33,746 1 INFO db_odoo odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2024-06-26 07:22:33,748 1 INFO db_odoo odoo.modules.loading: loading web_editor/views/editor.xml 
+2024-06-26 07:22:33,776 1 INFO db_odoo odoo.modules.loading: loading web_editor/views/snippets.xml 
+2024-06-26 07:22:33,833 1 INFO db_odoo odoo.addons.base.models.ir_module: module web_editor: loading base translation file es for language es_PE 
+2024-06-26 07:22:33,855 1 INFO db_odoo odoo.addons.base.models.ir_module: module web_editor: loading translation file es_PE for language es_PE 
+2024-06-26 07:22:33,910 1 INFO db_odoo odoo.modules.loading: Module web_editor loaded in 0.60s, 863 queries (+863 other) 
+2024-06-26 07:22:33,910 1 INFO db_odoo odoo.modules.loading: 8 modules loaded in 2.19s, 3094 queries (+3094 extra) 
+2024-06-26 07:22:34,087 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-06-26 07:22:34,095 1 INFO db_odoo odoo.modules.registry: Registry loaded in 7.904s 
+2024-06-26 07:22:34,095 1 INFO db_odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-06-26 07:22:34,097 1 INFO db_odoo odoo.modules.registry: Registry changed, signaling through the database 
+2024-06-26 07:22:34,098 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:34] "POST /web/dataset/call_button HTTP/1.1" 200 - 14065 4.035 4.406
+2024-06-26 07:22:34,445 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-26 07:22:34,764 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:34] "GET /web HTTP/1.1" 200 - 83 0.022 0.298
+2024-06-26 07:22:36,663 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:36] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 6 0.004 0.009
+2024-06-26 07:22:36,667 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:36] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 17 0.010 0.009
+2024-06-26 07:22:36,675 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:36] "POST /web/action/load HTTP/1.1" 200 - 12 0.004 0.018
+2024-06-26 07:22:37,034 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:37] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 44 0.016 0.018
+2024-06-26 07:22:37,259 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:37] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.012 0.009
+2024-06-26 07:22:37,266 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:37] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.006
+2024-06-26 07:22:37,271 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:37] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-06-26 07:22:43,080 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:43] "POST /web/action/load HTTP/1.1" 200 - 25 0.006 0.010
+2024-06-26 07:22:43,269 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:43] "POST /web/dataset/call_kw/res.users/get_views HTTP/1.1" 200 - 45 0.012 0.026
+2024-06-26 07:22:43,707 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:43] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.003
+2024-06-26 07:22:43,714 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:22:43] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 14 0.005 0.006
+2024-06-26 07:24:07,109 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:07] "GET / HTTP/1.1" 303 - 2 0.001 0.002
+2024-06-26 07:24:07,329 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:07] "GET /web HTTP/1.1" 200 - 9 0.003 0.005
+2024-06-26 07:24:08,911 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:08] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 4 0.004 0.010
+2024-06-26 07:24:09,082 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:09] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.003 0.006
+2024-06-26 07:24:09,091 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:09] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.005
+2024-06-26 07:24:09,307 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:09] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.001 0.004
+2024-06-26 07:24:09,430 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:09] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-06-26 07:24:09,550 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:09] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.009 0.008
+2024-06-26 07:24:09,670 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:09] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.004
+2024-06-26 07:24:13,468 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:13] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.005
+2024-06-26 07:24:15,708 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:15] "POST /web/webclient/version_info HTTP/1.1" 200 - 1 0.000 0.002
+2024-06-26 07:24:17,070 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:17] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.011 0.008
+2024-06-26 07:24:17,226 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:17] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.003
+2024-06-26 07:24:23,688 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:23] "POST /web/action/load HTTP/1.1" 200 - 12 0.003 0.006
+2024-06-26 07:24:24,061 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:24] "POST /web/dataset/call_kw/res.users/get_views HTTP/1.1" 200 - 13 0.005 0.016
+2024-06-26 07:24:24,499 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:24] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.002
+2024-06-26 07:24:24,507 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:24] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2024-06-26 07:24:27,534 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:27] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.001 0.005
+2024-06-26 07:24:27,864 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:27] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.010 0.011
+2024-06-26 07:24:27,875 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:27] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.016 0.013
+2024-06-26 07:24:31,592 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:31] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.005
+2024-06-26 07:24:31,604 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:31] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.014 0.009
+2024-06-26 07:24:34,729 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.016 0.010
+2024-06-26 07:24:34,896 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:34] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.003
+2024-06-26 07:24:37,981 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['school'] to user admin #2 via 172.20.0.1 
+2024-06-26 07:24:37,981 1 INFO db_odoo odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-26 07:24:37,981 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['school'] to user admin #2 via 172.20.0.1 
+2024-06-26 07:24:38,018 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-06-26 07:24:38,023 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-06-26 07:24:38,038 1 INFO db_odoo odoo.modules.loading: updating modules list 
+2024-06-26 07:24:38,039 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.20.0.1 
+2024-06-26 07:24:38,472 1 INFO db_odoo odoo.modules.loading: loading 8 modules... 
+2024-06-26 07:24:38,478 1 INFO db_odoo odoo.modules.loading: 8 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-26 07:24:38,479 1 INFO db_odoo odoo.modules.loading: loading 9 modules... 
+2024-06-26 07:24:38,479 1 INFO db_odoo odoo.modules.loading: Loading module school (2/9) 
+2024-06-26 07:24:38,512 1 INFO db_odoo odoo.modules.loading: loading school/views/views.xml 
+2024-06-26 07:24:38,513 1 INFO db_odoo odoo.modules.loading: loading school/views/templates.xml 
+2024-06-26 07:24:38,514 1 INFO db_odoo odoo.modules.loading: Module school: loading demo 
+2024-06-26 07:24:38,514 1 INFO db_odoo odoo.modules.loading: loading school/demo/demo.xml 
+2024-06-26 07:24:38,520 1 INFO db_odoo odoo.addons.base.models.ir_module: module school: no translation for language es_PE 
+2024-06-26 07:24:38,537 1 INFO db_odoo odoo.modules.loading: Module school loaded in 0.06s, 14 queries (+14 other) 
+2024-06-26 07:24:38,537 1 INFO db_odoo odoo.modules.loading: 9 modules loaded in 0.06s, 14 queries (+14 extra) 
+2024-06-26 07:24:38,691 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-06-26 07:24:38,698 1 INFO db_odoo odoo.modules.registry: Registry loaded in 0.684s 
+2024-06-26 07:24:38,698 1 INFO db_odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-06-26 07:24:38,701 1 INFO db_odoo odoo.modules.registry: Registry changed, signaling through the database 
+2024-06-26 07:24:38,702 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:38] "POST /web/dataset/call_button HTTP/1.1" 200 - 1492 0.368 0.356
+2024-06-26 07:24:38,910 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-26 07:24:38,993 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'school', defaulting to LGPL-3 
+2024-06-26 07:24:39,209 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:39] "GET /web HTTP/1.1" 200 - 83 0.021 0.280
+2024-06-26 07:24:39,713 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:39] "GET /web/webclient/translations/35506ac0eeceb5822f97878fa4c3ed7be5710619?lang=es_PE HTTP/1.1" 200 - 3 0.001 0.004
+2024-06-26 07:24:40,362 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:40] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.016 0.010
+2024-06-26 07:24:40,366 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:40] "POST /web/action/load HTTP/1.1" 200 - 12 0.007 0.010
+2024-06-26 07:24:40,393 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:40] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 5 0.001 0.004
+2024-06-26 07:24:40,557 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:40] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 44 0.014 0.024
+2024-06-26 07:24:40,773 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:40] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.008
+2024-06-26 07:24:40,782 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:40] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.022 0.011
+2024-06-26 07:24:40,823 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:40] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-06-26 07:24:48,477 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:48] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.009 0.008
+2024-06-26 07:24:48,635 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:48] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2024-06-26 07:24:50,371 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:50] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.010 0.008
+2024-06-26 07:24:50,528 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:50] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.002
+2024-06-26 07:24:53,956 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:53] "POST /web/action/load HTTP/1.1" 200 - 25 0.006 0.010
+2024-06-26 07:24:54,147 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:54] "POST /web/dataset/call_kw/res.users/get_views HTTP/1.1" 200 - 45 0.013 0.027
+2024-06-26 07:24:54,587 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:54] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.002
+2024-06-26 07:24:54,595 1 INFO db_odoo werkzeug: 172.20.0.1 - - [26/Jun/2024 07:24:54] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 14 0.005 0.005
