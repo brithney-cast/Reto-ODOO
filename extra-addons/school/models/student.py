@@ -12,6 +12,7 @@ class student(models.Model):
     age = fields.Integer(compute="_get_age", store=True, string="Edad")
     final_exam_grade = fields.Float(string="Nota Examen Final")
     subject_ids = fields.Many2many("school.subject", string="Asignaturas")
+    grade_ids = fields.One2many("school.grade", "student_id", string="Notas")
 
 
     @api.depends('birth_date')

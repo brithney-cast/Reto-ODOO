@@ -101,7 +101,23 @@
       </field>
     </record>
 
+    <!-- Grade -->
 
+    <record model="ir.ui.view" id="school.grade_forms">
+      <field name="name">Formulario Notas</field>
+      <field name="model">school.grade</field>
+      <field name="arch" type="xml">
+          <form string="Crear Notas">
+              <group>
+                  <field name="student_id"/>
+                  <field name="subject_id"/>
+                  <field name="grade_type"/>
+                  <field name="grade"/>
+                  <field name="date"/>
+              </group>
+          </form>
+      </field>
+    </record>
 
     <!-- actions opening views on models -->
 
@@ -121,6 +137,14 @@
       <field name="name">Profesores</field>
       <field name="res_model">school.teacher</field>
       <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="school.action_grade_form">
+      <field name="name">Crear Notas</field>
+      <field name="res_model">school.grade</field>
+      <field name="view_mode">form</field>
+      <field name="view_id" ref="school.grade_forms"/>
+      <field name="target">new</field>
     </record>
 
 
@@ -147,6 +171,10 @@
     <!-- menu categories -->
 
     <menuitem name="Administrar" id="school.manage" parent="school.menu_root"/>
+
+    <menuitem name="Notas" id="school.grades" parent="school.menu_root"/>
+
+    
 <!--
     <menuitem name="Menu 2" id="school.menu_2" parent="school.menu_root"/>
 -->
@@ -160,6 +188,8 @@
 
     <menuitem name="Profesor" id="school.manage_teacher_list" parent="school.manage"
               action="school.action_teacher_window"/>
+
+    <menuitem name="Crear Notas" id="menu_grade_form" parent="school.grades" action="school.action_grade_form"/>
 <!--
     <menuitem name="Server to list" id="school" parent="school.menu_2"
               action="school.action_server"/>
