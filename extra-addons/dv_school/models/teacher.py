@@ -3,7 +3,7 @@
 from odoo import models, fields
 
 
-class teacher(models.Model):
+class Teacher(models.Model):
     _name = 'school.teacher'
     _description = 'school.teacher'
 

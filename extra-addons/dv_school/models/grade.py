@@ -1,7 +1,7 @@
 from odoo import models, fields, api
 
 
-class grade(models.Model):
+class Grade(models.Model):
 
     _name = 'school.grade'
     _description = 'school.grade'
