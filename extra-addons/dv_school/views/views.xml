@@ -3,7 +3,7 @@
     <!-- explicit list view definition -->
     <!-- Subject -->
 
-    <record model="ir.ui.view" id="school.subject_lists">
+    <record model="ir.ui.view" id="subject_tree_view">
       <field name="name">Lista Asignatura</field>
       <field name="model">school.subject</field>
       <field name="arch" type="xml">
@@ -18,7 +18,7 @@
       </field>
     </record>
 
-    <record model="ir.ui.view" id="school.subject_forms">
+    <record model="ir.ui.view" id="subject_form_view">
       <field name="name">Formulario Asignatura</field>
       <field name="model">school.subject</field>
       <field name="arch" type="xml">
@@ -39,7 +39,7 @@
 
     <!-- Student -->
 
-    <record model="ir.ui.view" id="school.student_list">
+    <record model="ir.ui.view" id="student_tree_view">
       <field name="name">Lista Estudiantes</field>
       <field name="model">school.student</field>
       <field name="arch" type="xml">
@@ -54,7 +54,7 @@
       </field>
     </record>
 
-    <record model="ir.ui.view" id="school.student_forms">
+    <record model="ir.ui.view" id="student_form_view">
       <field name="name">Formulario Estudiantes</field>
       <field name="model">school.student</field>
       <field name="arch" type="xml">
@@ -75,7 +75,7 @@
 
     <!-- Teacher -->
 
-    <record model="ir.ui.view" id="school.teacher_list">
+    <record model="ir.ui.view" id="teacher_tree_view">
       <field name="name">Lista Profesores</field>
       <field name="model">school.teacher</field>
       <field name="arch" type="xml">
@@ -87,7 +87,7 @@
       </field>
     </record>
 
-    <record model="ir.ui.view" id="school.teacher_forms">
+    <record model="ir.ui.view" id=".teacher_form_view">
       <field name="name">Formulario Profesores</field>
       <field name="model">school.teacher</field>
       <field name="arch" type="xml">
@@ -105,7 +105,7 @@
 
     <!-- Grade -->
 
-    <record model="ir.ui.view" id="school.grade_forms">
+    <record model="ir.ui.view" id="grade_form_view">
       <field name="name">Formulario Notas</field>
       <field name="model">school.grade</field>
       <field name="arch" type="xml">
@@ -181,50 +181,25 @@
 
 
     <!-- server action to the one above -->
-<!--
-    <record model="ir.actions.server" id="school.action_server">
-      <field name="name">school server</field>
-      <field name="model_id" ref="model_school_school"/>
-      <field name="state">code</field>
-      <field name="code">
-        action = {
-          "type": "ir.actions.act_window",
-          "view_mode": "tree,form",
-          "res_model": model._name,
-        }
-      </field>
-    </record>
--->
-
-    <!-- Top menu item -->
-
-    <menuitem name="School" id="school.menu_root"/>
-
-    <!-- menu categories -->
-
-    <menuitem name="Administrar" id="school.manage" parent="school.menu_root"/>
-
-    <menuitem name="Notas" id="school.grades" parent="school.menu_root"/>
+    <!--
+        <record model="ir.actions.server" id="school.action_server">
+          <field name="name">school server</field>
+          <field name="model_id" ref="model_school_school"/>
+          <field name="state">code</field>
+          <field name="code">
+            action = {
+              "type": "ir.actions.act_window",
+              "view_mode": "tree,form",
+              "res_model": model._name,
+            }
+          </field>
+        </record>
+    -->
 
     
-<!--
-    <menuitem name="Menu 2" id="school.menu_2" parent="school.menu_root"/>
--->
-    <!-- actions -->
-
-    <menuitem name="Asignatura" id="school.manage_subject_list" parent="school.manage"
-              action="school.action_subject_window"/>
-
-    <menuitem name="Estudiante" id="school.manage_student_list" parent="school.manage"
-              action="school.action_student_window"/>
-
-    <menuitem name="Profesor" id="school.manage_teacher_list" parent="school.manage"
-              action="school.action_teacher_window"/>
-
-    <menuitem name="Crear Notas" id="menu_grade_form" parent="school.grades" action="school.action_grade_form"/>
-<!--
-    <menuitem name="Server to list" id="school" parent="school.menu_2"
-              action="school.action_server"/>
--->
+    <!--
+        <menuitem name="Server to list" id="school" parent="school.menu_2"
+                  action="school.action_server"/>
+    -->
   </data>
 </odoo>

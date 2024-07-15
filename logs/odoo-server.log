@@ -10814,3 +10814,83 @@ psycopg2.OperationalError: connection to server at "db_postgresql" (172.19.0.2),
 2024-07-15 20:57:03,124 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
 2024-07-15 20:57:37,273 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
 2024-07-15 20:57:37,278 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-07-15 20:58:27,788 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 20:58:27] "GET /web HTTP/1.1" 200 - 10 0.004 0.007
+2024-07-15 20:58:30,917 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 20:58:30] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.001 0.003
+2024-07-15 20:58:31,050 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 20:58:31] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.003 0.006
+2024-07-15 20:58:31,078 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 20:58:31] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.004
+2024-07-15 20:58:31,717 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 20:58:31] "POST /web/dataset/call_kw/school.subject/get_views HTTP/1.1" 200 - 2 0.001 0.004
+2024-07-15 20:58:31,723 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 20:58:31] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-07-15 20:58:31,767 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 20:58:31] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.002 0.005
+2024-07-15 20:58:31,788 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 20:58:31] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.010 0.010
+2024-07-15 20:58:31,808 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 20:58:31] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 14 0.006 0.007
+2024-07-15 20:58:32,192 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 20:58:32] "POST /web/dataset/call_kw/school.subject/web_search_read HTTP/1.1" 200 - 4 0.001 0.003
+2024-07-15 20:58:32,195 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 20:58:32] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.002
+2024-07-15 20:58:32,229 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 20:58:32] "POST /mail/load_message_failures HTTP/1.1" 200 - 9 0.003 0.004
+2024-07-15 21:07:13,750 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-07-15 21:07:13,752 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-07-15 21:17:24,342 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-07-15 21:17:24,344 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-07-15 21:18:53,950 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:18:53] "GET /web HTTP/1.1" 200 - 10 0.003 0.007
+2024-07-15 21:18:58,043 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:18:58] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.004
+2024-07-15 21:18:58,229 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:18:58] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.001 0.003
+2024-07-15 21:18:58,773 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:18:58] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.008 0.009
+2024-07-15 21:18:58,838 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:18:58] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 14 0.004 0.007
+2024-07-15 21:18:59,083 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:18:59] "POST /mail/load_message_failures HTTP/1.1" 200 - 9 0.004 0.005
+2024-07-15 21:18:59,227 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:18:59] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-07-15 21:19:14,905 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:19:14] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.002 0.005
+2024-07-15 21:19:15,057 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:19:15] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.003 0.005
+2024-07-15 21:19:15,156 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:19:15] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.001 0.003
+2024-07-15 21:19:15,174 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:19:15] "POST /web/dataset/call_kw/school.subject/get_views HTTP/1.1" 200 - 2 0.001 0.003
+2024-07-15 21:19:15,408 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:19:15] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.001 0.003
+2024-07-15 21:19:15,610 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:19:15] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.002
+2024-07-15 21:19:15,611 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:19:15] "POST /web/dataset/call_kw/school.subject/web_search_read HTTP/1.1" 200 - 4 0.002 0.003
+2024-07-15 21:20:06,816 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:06] "GET /web HTTP/1.1" 200 - 10 0.003 0.006
+2024-07-15 21:20:09,299 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:09] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.001 0.004
+2024-07-15 21:20:09,302 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:09] "POST /web/action/load HTTP/1.1" 200 - 9 0.005 0.006
+2024-07-15 21:20:09,436 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:09] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.009 0.009
+2024-07-15 21:20:09,673 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:09] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.003 0.005
+2024-07-15 21:20:09,712 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:09] "POST /web/dataset/call_kw/school.subject/get_views HTTP/1.1" 200 - 2 0.001 0.003
+2024-07-15 21:20:09,751 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:09] "POST /mail/load_message_failures HTTP/1.1" 200 - 9 0.003 0.004
+2024-07-15 21:20:09,760 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:09] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.001 0.003
+2024-07-15 21:20:09,910 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:09] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 14 0.004 0.006
+2024-07-15 21:20:10,034 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:10] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.002
+2024-07-15 21:20:10,036 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:10] "POST /web/dataset/call_kw/school.subject/web_search_read HTTP/1.1" 200 - 4 0.003 0.003
+2024-07-15 21:20:10,065 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:10] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.001 0.003
+2024-07-15 21:20:10,316 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:10] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.002 0.004
+2024-07-15 21:20:10,320 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:10] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-07-15 21:20:17,434 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:17] "POST /web/action/load HTTP/1.1" 200 - 11 0.003 0.005
+2024-07-15 21:20:17,718 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:17] "POST /web/dataset/call_kw/school.grade/get_views HTTP/1.1" 200 - 6 0.018 0.004
+2024-07-15 21:20:18,064 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:18] "POST /web/dataset/call_kw/school.grade/onchange HTTP/1.1" 200 - 2 0.001 0.002
+2024-07-15 21:20:21,755 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:21] "POST /web/dataset/call_kw/school.student/name_search HTTP/1.1" 200 - 3 0.001 0.002
+2024-07-15 21:20:22,705 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:22] "POST /web/dataset/call_kw/school.subject/name_search HTTP/1.1" 200 - 3 0.001 0.003
+2024-07-15 21:20:29,545 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:29] "POST /web/dataset/call_kw/school.subject/get_views HTTP/1.1" 200 - 2 0.001 0.003
+2024-07-15 21:20:30,114 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:30] "POST /web/dataset/call_kw/school.subject/web_search_read HTTP/1.1" 200 - 4 0.001 0.002
+2024-07-15 21:20:33,561 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:33] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.004
+2024-07-15 21:20:33,835 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:33] "POST /web/dataset/call_kw/school.teacher/get_views HTTP/1.1" 200 - 14 0.005 0.008
+2024-07-15 21:20:34,174 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:34] "POST /web/dataset/call_kw/school.teacher/web_search_read HTTP/1.1" 200 - 3 0.006 0.002
+2024-07-15 21:20:38,223 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:38] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.004
+2024-07-15 21:20:38,488 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:38] "POST /web/dataset/call_kw/school.student/get_views HTTP/1.1" 200 - 2 0.001 0.003
+2024-07-15 21:20:38,787 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:20:38] "POST /web/dataset/call_kw/school.student/web_search_read HTTP/1.1" 200 - 6 0.001 0.003
+2024-07-15 21:27:35,010 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-07-15 21:27:35,012 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-07-15 21:28:22,343 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:28:22] "POST /web/dataset/call_kw/school.grade/onchange HTTP/1.1" 200 - 1 0.000 0.002
+2024-07-15 21:28:28,585 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:28:28] "POST /web/dataset/call_kw/school.student/web_search_read HTTP/1.1" 200 - 6 0.001 0.003
+2024-07-15 21:28:29,646 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:28:29] "POST /web/dataset/call_kw/school.student/onchange HTTP/1.1" 200 - 2 0.001 0.003
+2024-07-15 21:28:36,099 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:28:36] "POST /web/dataset/call_kw/school.student/web_search_read HTTP/1.1" 200 - 6 0.001 0.003
+2024-07-15 21:30:57,470 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:30:57] "POST /web/dataset/call_kw/school.student/onchange HTTP/1.1" 200 - 1 0.000 0.002
+2024-07-15 21:31:12,385 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:31:12] "POST /web/dataset/call_kw/school.student/web_search_read HTTP/1.1" 200 - 6 0.002 0.004
+2024-07-15 21:31:16,203 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:31:16] "POST /web/dataset/call_kw/school.subject/web_search_read HTTP/1.1" 200 - 4 0.001 0.002
+2024-07-15 21:31:18,066 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:31:18] "POST /web/dataset/call_kw/school.subject/onchange HTTP/1.1" 200 - 2 0.001 0.003
+2024-07-15 21:31:26,555 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:31:26] "POST /web/dataset/call_kw/school.subject/web_search_read HTTP/1.1" 200 - 4 0.001 0.002
+2024-07-15 21:32:42,159 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:32:42] "POST /web/dataset/call_kw/school.student/web_search_read HTTP/1.1" 200 - 6 0.001 0.003
+2024-07-15 21:32:44,124 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:32:44] "POST /web/dataset/call_kw/school.student/onchange HTTP/1.1" 200 - 1 0.000 0.002
+2024-07-15 21:33:20,612 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:33:20] "POST /web/dataset/call_kw/school.student/onchange HTTP/1.1" 200 - 1 0.000 0.003
+2024-07-15 21:33:25,381 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:33:25] "POST /web/dataset/call_kw/school.subject/get_views HTTP/1.1" 200 - 2 0.001 0.003
+2024-07-15 21:33:25,676 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:33:25] "POST /web/dataset/call_kw/school.subject/web_search_read HTTP/1.1" 200 - 4 0.001 0.002
+2024-07-15 21:33:29,998 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:33:29] "POST /web/dataset/call_kw/school.student/web_search_read HTTP/1.1" 200 - 6 0.001 0.003
+2024-07-15 21:33:33,950 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:33:33] "POST /web/dataset/call_kw/school.student/read HTTP/1.1" 200 - 5 0.001 0.003
+2024-07-15 21:33:34,230 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:33:34] "POST /web/dataset/call_kw/school.subject/read HTTP/1.1" 200 - 3 0.001 0.002
+2024-07-15 21:33:34,388 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:33:34] "POST /web/dataset/call_kw/school.grade/read HTTP/1.1" 200 - 1 0.000 0.002
+2024-07-15 21:33:37,904 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:33:37] "POST /web/dataset/call_kw/school.grade/get_views HTTP/1.1" 200 - 4 0.001 0.004
+2024-07-15 21:33:38,622 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:33:38] "POST /web/dataset/call_kw/school.grade/read HTTP/1.1" 200 - 4 0.001 0.003
+2024-07-15 21:34:45,775 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 21:34:45] "POST /web/dataset/call_kw/school.grade/read HTTP/1.1" 200 - 4 0.001 0.003
