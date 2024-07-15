@@ -10800,3 +10800,17 @@ psycopg2.OperationalError: connection to server at "db_postgresql" (172.19.0.2),
 2024-07-15 20:49:46,634 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 20:49:46] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.005
 2024-07-15 20:49:46,916 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 20:49:46] "POST /web/dataset/call_kw/school.subject/get_views HTTP/1.1" 200 - 2 0.001 0.003
 2024-07-15 20:49:47,214 1 INFO db_odoo werkzeug: 172.18.0.1 - - [15/Jul/2024 20:49:47] "POST /web/dataset/call_kw/school.subject/web_search_read HTTP/1.1" 200 - 4 0.001 0.003
+2024-07-15 20:57:03,059 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-07-15 20:57:03,061 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-07-15 20:57:03,070 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-07-15 20:57:03,072 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-07-15 20:57:03,081 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-07-15 20:57:03,083 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-07-15 20:57:03,093 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-07-15 20:57:03,098 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-07-15 20:57:03,112 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-07-15 20:57:03,114 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-07-15 20:57:03,122 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-07-15 20:57:03,124 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-07-15 20:57:37,273 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-07-15 20:57:37,278 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
