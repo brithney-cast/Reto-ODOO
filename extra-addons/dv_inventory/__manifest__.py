@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "school",
+    'name': "dv_inventory",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
@@ -31,4 +31,5 @@
     'application': True,
     'installable': True,
     'auto_install': False,
+    
 }

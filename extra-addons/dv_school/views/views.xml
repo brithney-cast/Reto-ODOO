@@ -87,7 +87,7 @@
       </field>
     </record>
 
-    <record model="ir.ui.view" id=".teacher_form_view">
+    <record model="ir.ui.view" id="teacher_form_view">
       <field name="name">Formulario Profesores</field>
       <field name="model">school.teacher</field>
       <field name="arch" type="xml">
@@ -175,7 +175,7 @@
       <field name="name">Crear Notas</field>
       <field name="res_model">school.grade</field>
       <field name="view_mode">form</field>
-      <field name="view_id" ref="school.grade_forms"/>
+      <field name="view_id" ref="grade_form_view"/>
       <field name="target">new</field>
     </record>
 
@@ -201,5 +201,35 @@
         <menuitem name="Server to list" id="school" parent="school.menu_2"
                   action="school.action_server"/>
     -->
+    <menuitem name="School" id="app_menu_root">
+
+
+
+            <menuitem name="Administrar" id="manage_menu_categ" parent="app_menu_root">
+
+                <menuitem name="Asignatura" id="menu_manage_subject_list" parent="manage_menu_categ"
+                action="school.action_subject_window"/>
+
+                <menuitem name="Estudiante" id="menu_manage_student_list" parent="manage_menu_categ"
+                        action="school.action_student_window"/>
+
+                <menuitem name="Profesor" id="menu_manage_teacher_list" parent="manage_menu_categ"
+                        action="school.action_teacher_window"/>
+            
+            </menuitem>
+
+            <menuitem name="Notas" id="grades_menu_categ" parent="app_menu_root">
+
+                <menuitem name="Crear Notas" id="grade_form_menu_act" parent="grades_menu_categ" action="school.action_grade_form"/>
+
+            </menuitem>
+        
+        <!--
+            <menuitem name="Menu 2" id="school.menu_2" parent="school.menu_root"/>
+        -->
+        <!-- actions -->
+
+        
+        </menuitem>
   </data>
 </odoo>
