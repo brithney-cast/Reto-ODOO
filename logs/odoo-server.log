@@ -3834,3 +3834,79 @@ KeyError: 'client_id'
 2024-07-17 15:27:17,036 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
 2024-07-17 15:37:17,420 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
 2024-07-17 15:37:17,422 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-07-17 17:16:45,502 1 INFO ? odoo: Odoo version 16.0-20240711 
+2024-07-17 17:16:45,503 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-07-17 17:16:45,503 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-07-17 17:16:45,503 1 INFO ? odoo: database: odoo@db_postgresql:5432 
+2024-07-17 17:16:45,856 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-07-17 17:16:46,697 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on c0752fd70130:8069 
+2024-07-17 17:24:17,804 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-17 17:24:17,804 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-17 17:24:18,212 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-07-17 17:24:19,647 1 INFO ? odoo: Odoo version 16.0-20240711 
+2024-07-17 17:24:19,647 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-07-17 17:24:19,647 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-07-17 17:24:19,648 1 INFO ? odoo: database: odoo@db_postgresql:5432 
+2024-07-17 17:24:19,736 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-07-17 17:24:19,869 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on c0752fd70130:8069 
+2024-07-17 17:24:34,904 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 17:24:34,910 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 17:24:35,594 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 17:24:35,710 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 17:24:35,733 1 WARNING db_odoo odoo.api.create: The model odoo.addons.dv_inventory.models.order is not overriding the create method in batch 
+2024-07-17 17:24:37,828 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 2.12s, 0 queries (+0 extra) 
+2024-07-17 17:24:38,126 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 17:24:38,146 1 INFO db_odoo odoo.modules.registry: Registry loaded in 3.889s 
+2024-07-17 17:24:38,147 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 17:24:38,483 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 17:24:38] "GET / HTTP/1.1" 303 - 24 0.881 3.350
+2024-07-17 17:24:43,523 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 17:24:44,229 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 17:24:44] "GET /web HTTP/1.1" 200 - 85 0.538 4.461
+2024-07-17 17:24:52,045 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 17:24:52] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 6 0.002 0.006
+2024-07-17 17:24:52,964 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 17:24:52] "POST /mail/init_messaging HTTP/1.1" 200 - 56 0.209 0.017
+2024-07-17 17:24:53,183 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 17:24:53] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.003
+2024-07-17 17:24:53,412 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-07-17 17:24:53,612 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 17:24:53] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.013 0.006
+2024-07-17 17:24:55,599 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dv_school', defaulting to LGPL-3 
+2024-07-17 17:24:55,774 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 17:24:55] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 34 0.158 2.968
+2024-07-17 17:25:19,939 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-07-17 17:25:19,947 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-07-17 17:25:19,959 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-07-17 17:25:19,963 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-07-17 17:25:19,972 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-07-17 17:25:19,980 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-07-17 17:25:19,990 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-07-17 17:25:19,993 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-07-17 17:25:20,003 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-07-17 17:25:20,006 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-07-17 17:25:20,017 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-07-17 17:25:20,020 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-07-17 17:25:20,030 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-07-17 17:25:20,045 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-07-17 17:27:20,173 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-07-17 17:27:20,176 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-07-17 17:28:10,976 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 17:28:10] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.006
+2024-07-17 17:28:11,021 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 17:28:11] "POST /web/action/load HTTP/1.1" 200 - 8 0.040 0.006
+2024-07-17 17:28:11,042 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 17:28:11] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 13 0.034 0.030
+2024-07-17 17:28:11,073 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 17:28:11] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.006
+2024-07-17 17:28:11,094 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 17:28:11] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 17:28:11,113 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 17:28:11] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 17:28:11,382 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 17:28:11] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.004 0.003
+2024-07-17 17:37:20,597 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-07-17 17:37:20,600 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-07-17 17:47:21,122 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-07-17 17:47:21,125 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-07-17 17:56:53,619 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-07-17 17:56:53,621 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-07-17 17:56:53,631 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-07-17 17:56:53,634 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-07-17 17:57:21,599 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-07-17 17:57:21,601 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-07-17 17:57:21,610 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-07-17 17:57:21,612 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-07-17 17:57:21,623 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-07-17 17:57:21,625 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-07-17 17:57:21,635 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-07-17 17:57:21,637 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-07-17 17:57:54,716 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-07-17 17:57:54,719 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-07-17 17:58:04,064 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 17:58:04] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
