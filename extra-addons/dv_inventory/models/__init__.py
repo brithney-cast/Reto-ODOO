@@ -2,3 +2,5 @@
 
 from . import product
 from . import client
+from . import order
+from . import order_line

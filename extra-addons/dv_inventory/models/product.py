@@ -9,5 +9,5 @@ class product(models.Model):
 
     name = fields.Char()
     description = fields.Text()
-    client_id = fields.Many2one("inventory.client", string="Cliente")
+    #client_id = fields.Many2one("inventory.client", string="Cliente")
 
