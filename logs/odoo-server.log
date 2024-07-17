@@ -3910,3 +3910,1458 @@ KeyError: 'client_id'
 2024-07-17 17:57:54,716 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
 2024-07-17 17:57:54,719 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
 2024-07-17 17:58:04,064 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 17:58:04] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-07-17 22:45:57,205 1 INFO ? odoo: Odoo version 16.0-20240711 
+2024-07-17 22:45:57,211 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-07-17 22:45:57,211 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-07-17 22:45:57,211 1 INFO ? odoo: database: odoo@db_postgresql:5432 
+2024-07-17 22:45:57,494 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-07-17 22:45:58,361 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on c0752fd70130:8069 
+2024-07-17 22:46:01,386 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 22:46:01,393 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 22:46:02,072 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 22:46:02,247 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 22:46:02,276 1 WARNING db_odoo odoo.api.create: The model odoo.addons.dv_inventory.models.order is not overriding the create method in batch 
+2024-07-17 22:46:04,305 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 2.06s, 0 queries (+0 extra) 
+2024-07-17 22:46:04,588 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 22:46:04,609 1 INFO db_odoo odoo.modules.registry: Registry loaded in 3.908s 
+2024-07-17 22:46:04,610 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 22:46:04,910 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:04] "GET / HTTP/1.1" 303 - 24 0.931 3.283
+2024-07-17 22:46:09,503 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 22:46:10,280 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:10] "GET /web HTTP/1.1" 200 - 85 0.448 4.195
+2024-07-17 22:46:13,127 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dv_school', defaulting to LGPL-3 
+2024-07-17 22:46:13,149 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:13] "GET /web/assets/456-8e504a5/web.assets_common.min.js HTTP/1.1" 200 - 4 0.002 2.048
+2024-07-17 22:46:13,153 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:13] "GET /web/assets/468-bccf179/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.003 2.170
+2024-07-17 22:46:13,168 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:13] "GET /web/assets/467-bccf179/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.003 2.220
+2024-07-17 22:46:17,594 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:17] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 6 0.003 0.006
+2024-07-17 22:46:18,108 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:18] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.011
+2024-07-17 22:46:18,116 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:18] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.019
+2024-07-17 22:46:18,144 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:18] "POST /web/action/load HTTP/1.1" 200 - 9 0.042 0.006
+2024-07-17 22:46:18,174 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:18] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 17 0.009 0.011
+2024-07-17 22:46:18,590 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-07-17 22:46:18,620 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:18] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 22:46:18,623 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:18] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 22:46:18,960 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-07-17 22:46:19,174 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:19] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.267 0.020
+2024-07-17 22:46:19,201 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:19] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 35 0.271 0.023
+2024-07-17 22:46:19,509 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:19] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.005 0.008
+2024-07-17 22:46:19,662 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:19] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.005 0.005
+2024-07-17 22:46:47,422 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:47] "POST /web/action/load HTTP/1.1" 200 - 11 0.014 0.010
+2024-07-17 22:46:47,833 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:47] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 44 0.067 0.021
+2024-07-17 22:46:48,356 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:48] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.014 0.010
+2024-07-17 22:46:48,359 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:48] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.006
+2024-07-17 22:46:55,064 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:55] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.006
+2024-07-17 22:46:55,078 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:46:55] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.013 0.009
+2024-07-17 22:46:58,475 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-07-17 22:46:58,488 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-07-17 22:46:58,498 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-07-17 22:46:58,501 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-07-17 22:46:58,510 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-07-17 22:46:58,512 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-07-17 22:46:58,521 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-07-17 22:46:58,523 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-07-17 22:46:58,532 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-07-17 22:46:58,534 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-07-17 22:46:58,543 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-07-17 22:46:58,556 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-07-17 22:46:58,565 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-07-17 22:46:58,567 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-07-17 22:47:03,409 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:47:03] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.011 0.009
+2024-07-17 22:47:03,862 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:47:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.003
+2024-07-17 22:47:07,796 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:47:07] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.006
+2024-07-17 22:47:07,805 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:47:07] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.024 0.015
+2024-07-17 22:47:10,262 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:47:10] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.011 0.009
+2024-07-17 22:47:10,574 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:47:10] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.003
+2024-07-17 22:47:13,339 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:47:13] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.011 0.009
+2024-07-17 22:47:13,345 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:47:13] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.006
+2024-07-17 22:47:15,071 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:47:15] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.011 0.009
+2024-07-17 22:47:15,344 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:47:15] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.003
+2024-07-17 22:47:19,842 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 22:47:19,842 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 22:47:19,842 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 22:47:20,304 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 172.20.0.1 
+2024-07-17 22:47:20,896 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 22:47:20,902 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 22:47:20,917 1 INFO db_odoo odoo.modules.loading: updating modules list 
+2024-07-17 22:47:20,917 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.20.0.1 
+2024-07-17 22:47:21,356 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 22:47:21,357 1 INFO db_odoo odoo.modules.loading: Loading module dv_inventory (3/74) 
+2024-07-17 22:47:21,381 1 INFO db_odoo odoo.modules.registry: module dv_inventory: creating or updating database tables 
+2024-07-17 22:47:21,656 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/security/ir.model.access.csv 
+2024-07-17 22:47:21,690 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/views/views.xml 
+2024-07-17 22:47:21,709 1 WARNING db_odoo odoo.modules.loading: Transient module states were reset 
+2024-07-17 22:47:21,716 1 ERROR db_odoo odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 504, in _tag_record
+    self._test_xml_id(rec_id)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 250, in _test_xml_id
+    assert modcnt == 1, """The ID "%s" refers to an uninstalled module""" % (xml_id,)
+AssertionError: The ID "order.action_window" refers to an uninstalled module
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 484, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 231, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 71, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 763, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 829, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 749, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 711, in _tag_root
+    raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/dv_inventory/views/views.xml:60, somewhere inside
+<record model="ir.actions.act_window" id="order.action_window">
+      <field name="name">order window</field>
+      <field name="res_model">inventory.order</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+2024-07-17 22:47:21,720 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 22:47:21,728 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 22:47:21,736 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 22:47:21,778 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.04s, 0 queries (+0 extra) 
+2024-07-17 22:47:21,880 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 22:47:21,883 1 INFO db_odoo odoo.modules.registry: Registry loaded in 0.166s 
+2024-07-17 22:47:21,905 1 ERROR db_odoo odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 504, in _tag_record
+    self._test_xml_id(rec_id)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 250, in _test_xml_id
+    assert modcnt == 1, """The ID "%s" refers to an uninstalled module""" % (xml_id,)
+AssertionError: The ID "order.action_window" refers to an uninstalled module
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 2044, in __call__
+    response = request._serve_db()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1632, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 133, in retrying
+    result = func()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1659, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1863, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 154, in _dispatch
+    result = endpoint(**request.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 716, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/dataset.py", line 46, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/dataset.py", line 33, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 468, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 453, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-83>", line 2, in button_immediate_upgrade
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 666, in button_immediate_upgrade
+    return self._button_immediate_function(self.env.registry[self._name].button_upgrade)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 599, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "<decorator-gen-16>", line 2, in new
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 484, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 231, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 71, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 763, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 829, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 749, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 711, in _tag_root
+    raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/dv_inventory/views/views.xml:60, somewhere inside
+<record model="ir.actions.act_window" id="order.action_window">
+      <field name="name">order window</field>
+      <field name="res_model">inventory.order</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+2024-07-17 22:47:21,906 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:47:21] "POST /web/dataset/call_button HTTP/1.1" 200 - 2424 0.758 1.310
+2024-07-17 22:51:27,580 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-17 22:51:27,580 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-17 22:51:27,612 1 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 223, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 208, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2024-07-17 22:51:27,617 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-07-17 22:51:27,617 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.20.0.3), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-07-17 22:51:27,626 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-07-17 22:51:27,626 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.20.0.3), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-07-17 22:51:27,899 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-07-17 22:51:29,549 1 INFO ? odoo: Odoo version 16.0-20240711 
+2024-07-17 22:51:29,549 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-07-17 22:51:29,550 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-07-17 22:51:29,550 1 INFO ? odoo: database: odoo@db_postgresql:5432 
+2024-07-17 22:51:29,643 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-07-17 22:51:29,780 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on c0752fd70130:8069 
+2024-07-17 22:51:31,910 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 22:51:31,915 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 22:51:31,931 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 22:51:31,940 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 22:51:31,943 1 WARNING db_odoo odoo.api.create: The model odoo.addons.dv_inventory.models.order is not overriding the create method in batch 
+2024-07-17 22:51:32,437 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.50s, 0 queries (+0 extra) 
+2024-07-17 22:51:32,574 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 22:51:32,578 1 INFO db_odoo odoo.modules.registry: Registry loaded in 0.682s 
+2024-07-17 22:51:32,579 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 22:51:32,704 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:32] "GET /websocket HTTP/1.1" 101 - 23 0.018 0.791
+2024-07-17 22:51:32,927 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-07-17 22:51:40,918 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 22:51:41,373 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:41] "GET /web HTTP/1.1" 200 - 84 0.039 2.606
+2024-07-17 22:51:44,200 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:44] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.002 0.006
+2024-07-17 22:51:44,226 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dv_school', defaulting to LGPL-3 
+2024-07-17 22:51:44,236 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:44] "POST /web/action/load HTTP/1.1" 200 - 12 0.004 0.149
+2024-07-17 22:51:44,274 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:44] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.005
+2024-07-17 22:51:44,283 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:44] "POST /mail/init_messaging HTTP/1.1" 200 - 56 0.022 0.015
+2024-07-17 22:51:44,512 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:44] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.004 0.011
+2024-07-17 22:51:44,526 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:44] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 5 0.002 0.004
+2024-07-17 22:51:44,676 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:44] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 35 0.046 0.046
+2024-07-17 22:51:44,689 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:44] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 22:51:44,695 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:44] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 5 0.009 0.056
+2024-07-17 22:51:44,773 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:44] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.077 0.055
+2024-07-17 22:51:44,832 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:44] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 44 0.054 0.145
+2024-07-17 22:51:44,877 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:44] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 22:51:44,896 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:44] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.011 0.007
+2024-07-17 22:51:44,930 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:44] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-07-17 22:51:45,291 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:45] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.005
+2024-07-17 22:51:45,304 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:45] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.019 0.011
+2024-07-17 22:51:49,311 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.011 0.009
+2024-07-17 22:51:49,622 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:49] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2024-07-17 22:51:51,431 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:51] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.009 0.008
+2024-07-17 22:51:51,685 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:51] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.004
+2024-07-17 22:51:53,502 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:53] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.010 0.009
+2024-07-17 22:51:53,773 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:51:53] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.003
+2024-07-17 22:51:58,361 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 22:51:58,362 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 22:51:58,362 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 22:51:58,801 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 172.20.0.1 
+2024-07-17 22:51:59,416 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 22:51:59,422 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 22:51:59,436 1 INFO db_odoo odoo.modules.loading: updating modules list 
+2024-07-17 22:51:59,438 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.20.0.1 
+2024-07-17 22:51:59,899 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 22:51:59,900 1 INFO db_odoo odoo.modules.loading: Loading module dv_inventory (3/74) 
+2024-07-17 22:51:59,924 1 INFO db_odoo odoo.modules.registry: module dv_inventory: creating or updating database tables 
+2024-07-17 22:51:59,980 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/security/ir.model.access.csv 
+2024-07-17 22:51:59,989 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/views/views.xml 
+2024-07-17 22:52:00,011 1 WARNING db_odoo odoo.modules.loading: Transient module states were reset 
+2024-07-17 22:52:00,021 1 ERROR db_odoo odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 504, in _tag_record
+    self._test_xml_id(rec_id)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 250, in _test_xml_id
+    assert modcnt == 1, """The ID "%s" refers to an uninstalled module""" % (xml_id,)
+AssertionError: The ID "order.action_window" refers to an uninstalled module
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 484, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 231, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 71, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 763, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 829, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 749, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 711, in _tag_root
+    raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/dv_inventory/views/views.xml:60, somewhere inside
+<record model="ir.actions.act_window" id="order.action_window">
+      <field name="name">order window</field>
+      <field name="res_model">inventory.order</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+2024-07-17 22:52:00,025 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 22:52:00,038 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 22:52:00,045 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 22:52:00,167 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.12s, 0 queries (+0 extra) 
+2024-07-17 22:52:00,274 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 22:52:00,277 1 INFO db_odoo odoo.modules.registry: Registry loaded in 0.255s 
+2024-07-17 22:52:00,278 1 ERROR db_odoo odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 504, in _tag_record
+    self._test_xml_id(rec_id)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 250, in _test_xml_id
+    assert modcnt == 1, """The ID "%s" refers to an uninstalled module""" % (xml_id,)
+AssertionError: The ID "order.action_window" refers to an uninstalled module
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 2044, in __call__
+    response = request._serve_db()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1632, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 133, in retrying
+    result = func()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1659, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1863, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 154, in _dispatch
+    result = endpoint(**request.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 716, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/dataset.py", line 46, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/dataset.py", line 33, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 468, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 453, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-83>", line 2, in button_immediate_upgrade
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 666, in button_immediate_upgrade
+    return self._button_immediate_function(self.env.registry[self._name].button_upgrade)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 599, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "<decorator-gen-16>", line 2, in new
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 484, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 231, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 71, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 763, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 829, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 749, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 711, in _tag_root
+    raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/dv_inventory/views/views.xml:60, somewhere inside
+<record model="ir.actions.act_window" id="order.action_window">
+      <field name="name">order window</field>
+      <field name="res_model">inventory.order</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+2024-07-17 22:52:00,279 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:52:00] "POST /web/dataset/call_button HTTP/1.1" 200 - 2424 0.580 1.342
+2024-07-17 22:53:07,964 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-17 22:53:07,964 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-17 22:53:07,980 1 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 223, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 208, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2024-07-17 22:53:07,984 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-07-17 22:53:07,984 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.20.0.3), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-07-17 22:53:07,987 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-07-17 22:53:07,987 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.20.0.3), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-07-17 22:53:08,701 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-07-17 22:53:10,246 1 INFO ? odoo: Odoo version 16.0-20240711 
+2024-07-17 22:53:10,247 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-07-17 22:53:10,247 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-07-17 22:53:10,247 1 INFO ? odoo: database: odoo@db_postgresql:5432 
+2024-07-17 22:53:10,331 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-07-17 22:53:10,456 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on c0752fd70130:8069 
+2024-07-17 22:53:11,753 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 22:53:11,759 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 22:53:11,775 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 22:53:11,784 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 22:53:11,787 1 WARNING db_odoo odoo.api.create: The model odoo.addons.dv_inventory.models.order is not overriding the create method in batch 
+2024-07-17 22:53:12,156 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.37s, 0 queries (+0 extra) 
+2024-07-17 22:53:12,278 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 22:53:12,283 1 INFO db_odoo odoo.modules.registry: Registry loaded in 0.544s 
+2024-07-17 22:53:12,284 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 22:53:12,453 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:12] "GET /websocket HTTP/1.1" 101 - 23 0.018 0.696
+2024-07-17 22:53:12,671 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-07-17 22:53:18,470 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 22:53:18,734 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:18] "GET /web HTTP/1.1" 200 - 84 0.035 2.555
+2024-07-17 22:53:21,630 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dv_school', defaulting to LGPL-3 
+2024-07-17 22:53:21,643 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:21] "POST /web/action/load HTTP/1.1" 200 - 12 0.005 0.167
+2024-07-17 22:53:21,659 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:21] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.001 0.003
+2024-07-17 22:53:21,744 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:21] "POST /mail/init_messaging HTTP/1.1" 200 - 56 0.019 0.015
+2024-07-17 22:53:21,997 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:21] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 35 0.014 0.011
+2024-07-17 22:53:22,056 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:22] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.004 0.005
+2024-07-17 22:53:22,102 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:22] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 22:53:22,430 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:22] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-07-17 22:53:38,588 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-17 22:53:38,588 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-17 22:53:38,607 1 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 223, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 208, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2024-07-17 22:53:38,610 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-07-17 22:53:38,610 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.20.0.3), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-07-17 22:53:38,614 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-07-17 22:53:38,614 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.20.0.3), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-07-17 22:53:39,209 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-07-17 22:53:40,740 1 INFO ? odoo: Odoo version 16.0-20240711 
+2024-07-17 22:53:40,740 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-07-17 22:53:40,740 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-07-17 22:53:40,740 1 INFO ? odoo: database: odoo@db_postgresql:5432 
+2024-07-17 22:53:40,824 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-07-17 22:53:40,946 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on c0752fd70130:8069 
+2024-07-17 22:53:41,606 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 22:53:41,612 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 22:53:41,680 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 22:53:41,719 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 22:53:41,752 1 WARNING db_odoo odoo.api.create: The model odoo.addons.dv_inventory.models.order is not overriding the create method in batch 
+2024-07-17 22:53:42,261 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dv_school', defaulting to LGPL-3 
+2024-07-17 22:53:42,269 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dv_school', defaulting to LGPL-3 
+2024-07-17 22:53:42,282 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:42] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.440
+2024-07-17 22:53:42,284 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:42] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.556
+2024-07-17 22:53:42,633 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.91s, 0 queries (+0 extra) 
+2024-07-17 22:53:42,753 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 22:53:42,759 1 INFO db_odoo odoo.modules.registry: Registry loaded in 1.202s 
+2024-07-17 22:53:42,802 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 22:53:42,813 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 22:53:42,827 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 22:53:42,894 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 22:53:42,925 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 22:53:42,998 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 22:53:43,501 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:43] "GET /websocket HTTP/1.1" 101 - 6 0.151 1.158
+2024-07-17 22:53:43,531 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:43] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 14 0.050 1.680
+2024-07-17 22:53:43,551 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:43] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.080 1.874
+2024-07-17 22:53:43,556 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:43] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 5 0.050 1.900
+2024-07-17 22:53:43,566 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:43] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 40 0.147 1.863
+2024-07-17 22:53:43,691 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:43] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 48 0.124 2.009
+2024-07-17 22:53:43,797 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-07-17 22:53:44,373 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:44] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.010 0.043
+2024-07-17 22:53:44,375 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:44] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.057 0.018
+2024-07-17 22:53:46,092 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 22:53:46,386 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:46] "GET /web HTTP/1.1" 200 - 84 0.127 2.999
+2024-07-17 22:53:48,329 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:48] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.002 0.004
+2024-07-17 22:53:48,451 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:48] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.021 0.014
+2024-07-17 22:53:48,601 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:48] "POST /web/action/load HTTP/1.1" 200 - 10 0.007 0.007
+2024-07-17 22:53:48,606 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:48] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 34 0.021 0.014
+2024-07-17 22:53:48,645 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:48] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.005 0.006
+2024-07-17 22:53:48,705 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:48] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 22:53:48,790 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:48] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.005 0.005
+2024-07-17 22:53:48,860 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:48] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.001 0.005
+2024-07-17 22:53:48,869 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:48] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 22:53:48,889 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:48] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 22:53:49,190 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:49] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-07-17 22:53:49,379 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:49] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.076 0.015
+2024-07-17 22:53:49,387 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.014 0.099
+2024-07-17 22:53:53,796 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:53] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.011 0.009
+2024-07-17 22:53:54,189 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.003
+2024-07-17 22:53:57,379 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 22:53:57,380 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 22:53:57,380 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 22:53:57,813 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 172.20.0.1 
+2024-07-17 22:53:58,491 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 22:53:58,500 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 22:53:58,532 1 INFO db_odoo odoo.modules.loading: updating modules list 
+2024-07-17 22:53:58,535 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.20.0.1 
+2024-07-17 22:53:59,007 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 22:53:59,008 1 INFO db_odoo odoo.modules.loading: Loading module dv_inventory (3/74) 
+2024-07-17 22:53:59,032 1 INFO db_odoo odoo.modules.registry: module dv_inventory: creating or updating database tables 
+2024-07-17 22:53:59,088 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/security/ir.model.access.csv 
+2024-07-17 22:53:59,097 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/views/views.xml 
+2024-07-17 22:53:59,113 1 WARNING db_odoo odoo.modules.loading: Transient module states were reset 
+2024-07-17 22:53:59,122 1 ERROR db_odoo odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 504, in _tag_record
+    self._test_xml_id(rec_id)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 245, in _test_xml_id
+    assert '.' not in id, """The ID reference "%s" must contain
+AssertionError: The ID reference "dv_inventory.order.action_window" must contain
+maximum one dot. They are used to refer to other modules ID, in the
+form: module.record_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 484, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 231, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 71, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 763, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 829, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 749, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 711, in _tag_root
+    raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/dv_inventory/views/views.xml:60, somewhere inside
+<record model="ir.actions.act_window" id="dv_inventory.order.action_window">
+      <field name="name">order window</field>
+      <field name="res_model">inventory.order</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+2024-07-17 22:53:59,127 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 22:53:59,135 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 22:53:59,145 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 22:53:59,177 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.03s, 0 queries (+0 extra) 
+2024-07-17 22:53:59,280 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 22:53:59,284 1 INFO db_odoo odoo.modules.registry: Registry loaded in 0.161s 
+2024-07-17 22:53:59,286 1 ERROR db_odoo odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 504, in _tag_record
+    self._test_xml_id(rec_id)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 245, in _test_xml_id
+    assert '.' not in id, """The ID reference "%s" must contain
+AssertionError: The ID reference "dv_inventory.order.action_window" must contain
+maximum one dot. They are used to refer to other modules ID, in the
+form: module.record_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 2044, in __call__
+    response = request._serve_db()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1632, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 133, in retrying
+    result = func()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1659, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1863, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 154, in _dispatch
+    result = endpoint(**request.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 716, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/dataset.py", line 46, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/dataset.py", line 33, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 468, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 453, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-83>", line 2, in button_immediate_upgrade
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 666, in button_immediate_upgrade
+    return self._button_immediate_function(self.env.registry[self._name].button_upgrade)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 599, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "<decorator-gen-16>", line 2, in new
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 484, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 231, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 71, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 763, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 829, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 749, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 711, in _tag_root
+    raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/dv_inventory/views/views.xml:60, somewhere inside
+<record model="ir.actions.act_window" id="dv_inventory.order.action_window">
+      <field name="name">order window</field>
+      <field name="res_model">inventory.order</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+2024-07-17 22:53:59,287 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:53:59] "POST /web/dataset/call_button HTTP/1.1" 200 - 2423 0.589 1.322
+2024-07-17 22:54:48,416 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-17 22:54:48,416 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-17 22:54:48,425 1 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 223, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 208, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2024-07-17 22:54:48,440 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-07-17 22:54:48,441 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.20.0.3), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-07-17 22:54:48,448 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-07-17 22:54:48,448 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.20.0.3), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-07-17 22:54:48,726 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 1 connections  
+2024-07-17 22:54:50,319 1 INFO ? odoo: Odoo version 16.0-20240711 
+2024-07-17 22:54:50,319 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-07-17 22:54:50,319 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-07-17 22:54:50,319 1 INFO ? odoo: database: odoo@db_postgresql:5432 
+2024-07-17 22:54:50,403 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-07-17 22:54:50,531 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on c0752fd70130:8069 
+2024-07-17 22:54:52,107 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 22:54:52,112 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 22:54:52,127 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 22:54:52,136 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 22:54:52,138 1 WARNING db_odoo odoo.api.create: The model odoo.addons.dv_inventory.models.order is not overriding the create method in batch 
+2024-07-17 22:54:52,570 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.43s, 0 queries (+0 extra) 
+2024-07-17 22:54:52,707 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 22:54:52,710 1 INFO db_odoo odoo.modules.registry: Registry loaded in 0.617s 
+2024-07-17 22:54:52,712 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 22:54:52,849 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:54:52] "GET /websocket HTTP/1.1" 101 - 23 0.018 0.738
+2024-07-17 22:54:53,068 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-07-17 22:54:59,552 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-17 22:54:59,552 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-17 22:54:59,563 1 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 223, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 208, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2024-07-17 22:54:59,568 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-07-17 22:54:59,568 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.20.0.3), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-07-17 22:54:59,575 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-07-17 22:54:59,575 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.20.0.3), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-07-17 22:54:59,877 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 1 connections  
+2024-07-17 22:55:01,556 1 INFO ? odoo: Odoo version 16.0-20240711 
+2024-07-17 22:55:01,556 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-07-17 22:55:01,556 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-07-17 22:55:01,557 1 INFO ? odoo: database: odoo@db_postgresql:5432 
+2024-07-17 22:55:01,643 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-07-17 22:55:01,776 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on c0752fd70130:8069 
+2024-07-17 22:55:02,095 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 22:55:02,101 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 22:55:02,116 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 22:55:02,129 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 22:55:02,132 1 WARNING db_odoo odoo.api.create: The model odoo.addons.dv_inventory.models.order is not overriding the create method in batch 
+2024-07-17 22:55:02,540 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.41s, 0 queries (+0 extra) 
+2024-07-17 22:55:02,692 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 22:55:02,696 1 INFO db_odoo odoo.modules.registry: Registry loaded in 0.615s 
+2024-07-17 22:55:02,697 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 22:55:02,829 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:02] "GET /websocket HTTP/1.1" 101 - 23 0.021 0.727
+2024-07-17 22:55:03,045 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-07-17 22:55:06,203 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:06] "GET / HTTP/1.1" 303 - 2 0.001 0.003
+2024-07-17 22:55:09,122 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 22:55:09,433 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:09] "GET /web HTTP/1.1" 200 - 84 0.036 2.652
+2024-07-17 22:55:12,138 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:12] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.002 0.004
+2024-07-17 22:55:12,369 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:12] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 17 0.030 0.012
+2024-07-17 22:55:12,708 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dv_school', defaulting to LGPL-3 
+2024-07-17 22:55:12,709 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dv_school', defaulting to LGPL-3 
+2024-07-17 22:55:12,709 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dv_school', defaulting to LGPL-3 
+2024-07-17 22:55:12,710 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:12] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.366
+2024-07-17 22:55:12,712 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:12] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.468
+2024-07-17 22:55:12,722 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:12] "POST /web/action/load HTTP/1.1" 200 - 9 0.007 0.405
+2024-07-17 22:55:12,884 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:12] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.003
+2024-07-17 22:55:13,284 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:13] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 22:55:13,287 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:13] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 22:55:13,509 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:13] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.029 0.018
+2024-07-17 22:55:13,524 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:13] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 35 0.026 0.021
+2024-07-17 22:55:13,834 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:13] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.007 0.006
+2024-07-17 22:55:13,843 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:13] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.006 0.011
+2024-07-17 22:55:57,142 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:57] "POST /web/action/load HTTP/1.1" 200 - 11 0.003 0.006
+2024-07-17 22:55:57,425 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:57] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 44 0.014 0.019
+2024-07-17 22:55:57,878 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.013 0.010
+2024-07-17 22:55:57,881 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:55:57] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.005
+2024-07-17 22:56:01,135 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:56:01] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.010
+2024-07-17 22:56:01,138 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:56:01] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.028 0.013
+2024-07-17 22:56:02,918 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:56:02] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.012 0.009
+2024-07-17 22:56:03,178 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:56:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.004
+2024-07-17 22:56:06,416 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:56:06] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.005
+2024-07-17 22:56:06,433 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:56:06] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.009 0.009
+2024-07-17 22:56:08,474 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:56:08] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.011 0.009
+2024-07-17 22:56:08,736 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:56:08] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.004
+2024-07-17 22:56:12,898 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 22:56:12,899 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 22:56:12,899 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 22:56:13,380 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 172.20.0.1 
+2024-07-17 22:56:14,016 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 22:56:14,022 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 22:56:14,036 1 INFO db_odoo odoo.modules.loading: updating modules list 
+2024-07-17 22:56:14,037 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.20.0.1 
+2024-07-17 22:56:14,532 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 22:56:14,533 1 INFO db_odoo odoo.modules.loading: Loading module dv_inventory (3/74) 
+2024-07-17 22:56:14,571 1 INFO db_odoo odoo.modules.registry: module dv_inventory: creating or updating database tables 
+2024-07-17 22:56:14,630 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/security/ir.model.access.csv 
+2024-07-17 22:56:14,639 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/views/views.xml 
+2024-07-17 22:56:14,655 1 WARNING db_odoo odoo.modules.loading: Transient module states were reset 
+2024-07-17 22:56:14,662 1 ERROR db_odoo odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 504, in _tag_record
+    self._test_xml_id(rec_id)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 250, in _test_xml_id
+    assert modcnt == 1, """The ID "%s" refers to an uninstalled module""" % (xml_id,)
+AssertionError: The ID "dv_inventory_order.action_window" refers to an uninstalled module
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 484, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 231, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 71, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 763, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 829, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 749, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 711, in _tag_root
+    raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/dv_inventory/views/views.xml:60, somewhere inside
+<record model="ir.actions.act_window" id="dv_inventory_order.action_window">
+      <field name="name">order window</field>
+      <field name="res_model">inventory.order</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+2024-07-17 22:56:14,666 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 22:56:14,671 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 22:56:14,677 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 22:56:14,710 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.03s, 0 queries (+0 extra) 
+2024-07-17 22:56:14,896 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 22:56:14,899 1 INFO db_odoo odoo.modules.registry: Registry loaded in 0.236s 
+2024-07-17 22:56:14,901 1 ERROR db_odoo odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 504, in _tag_record
+    self._test_xml_id(rec_id)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 250, in _test_xml_id
+    assert modcnt == 1, """The ID "%s" refers to an uninstalled module""" % (xml_id,)
+AssertionError: The ID "dv_inventory_order.action_window" refers to an uninstalled module
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 2044, in __call__
+    response = request._serve_db()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1632, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 133, in retrying
+    result = func()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1659, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1863, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 154, in _dispatch
+    result = endpoint(**request.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 716, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/dataset.py", line 46, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/dataset.py", line 33, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 468, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 453, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-83>", line 2, in button_immediate_upgrade
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 666, in button_immediate_upgrade
+    return self._button_immediate_function(self.env.registry[self._name].button_upgrade)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 599, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "<decorator-gen-16>", line 2, in new
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 484, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 231, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 71, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 763, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 829, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 749, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 711, in _tag_root
+    raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/dv_inventory/views/views.xml:60, somewhere inside
+<record model="ir.actions.act_window" id="dv_inventory_order.action_window">
+      <field name="name">order window</field>
+      <field name="res_model">inventory.order</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+2024-07-17 22:56:14,901 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 22:56:14] "POST /web/dataset/call_button HTTP/1.1" 200 - 2424 0.627 1.379
+2024-07-17 22:57:01,915 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-07-17 22:57:01,919 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-07-17 22:57:01,930 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-07-17 22:57:01,944 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-07-17 22:57:01,954 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-07-17 22:57:01,956 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-07-17 22:57:01,965 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-07-17 22:57:01,967 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-07-17 22:57:01,977 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-07-17 22:57:01,980 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-07-17 22:57:01,989 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-07-17 22:57:01,991 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-07-17 22:58:02,060 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-07-17 22:58:02,063 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-07-17 23:01:42,825 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-17 23:01:42,825 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-17 23:01:42,851 1 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 223, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 208, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2024-07-17 23:01:42,871 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-07-17 23:01:42,871 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.20.0.3), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-07-17 23:01:42,875 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-07-17 23:01:42,876 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.20.0.3), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-07-17 23:01:43,564 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-07-17 23:01:45,077 1 INFO ? odoo: Odoo version 16.0-20240711 
+2024-07-17 23:01:45,077 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-07-17 23:01:45,077 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-07-17 23:01:45,078 1 INFO ? odoo: database: odoo@db_postgresql:5432 
+2024-07-17 23:01:45,161 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-07-17 23:01:45,284 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on c0752fd70130:8069 
+2024-07-17 23:01:46,653 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 23:01:46,658 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 23:01:46,673 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 23:01:46,682 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 23:01:46,685 1 WARNING db_odoo odoo.api.create: The model odoo.addons.dv_inventory.models.order is not overriding the create method in batch 
+2024-07-17 23:01:47,062 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.38s, 0 queries (+0 extra) 
+2024-07-17 23:01:47,172 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 23:01:47,175 1 INFO db_odoo odoo.modules.registry: Registry loaded in 0.536s 
+2024-07-17 23:01:47,176 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 23:01:47,304 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:01:47] "GET /websocket HTTP/1.1" 101 - 23 0.018 0.648
+2024-07-17 23:01:47,530 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-07-17 23:02:01,278 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 23:02:01,540 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:01] "GET /web HTTP/1.1" 200 - 84 0.039 2.591
+2024-07-17 23:02:05,561 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:05] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.022 0.010
+2024-07-17 23:02:05,668 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dv_school', defaulting to LGPL-3 
+2024-07-17 23:02:05,681 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:05] "POST /web/action/load HTTP/1.1" 200 - 12 0.005 0.238
+2024-07-17 23:02:05,685 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:05] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 23:02:05,848 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:05] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 23:02:05,849 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:05] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.003
+2024-07-17 23:02:05,851 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:05] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.006 0.005
+2024-07-17 23:02:05,962 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:05] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.017 0.015
+2024-07-17 23:02:05,970 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:05] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.038 0.009
+2024-07-17 23:02:05,989 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:05] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 23:02:06,021 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:06] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 23:02:06,085 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:06] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.054 0.022
+2024-07-17 23:02:06,395 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:06] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 35 0.130 0.021
+2024-07-17 23:02:06,403 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:06] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 5 0.005 0.024
+2024-07-17 23:02:06,435 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:06] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 44 0.023 0.169
+2024-07-17 23:02:06,453 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:06] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.006 0.005
+2024-07-17 23:02:06,761 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:06] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-07-17 23:02:06,850 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:06] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.005
+2024-07-17 23:02:06,855 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:06] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.016 0.010
+2024-07-17 23:02:37,971 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:37] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.025 0.023
+2024-07-17 23:02:38,289 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:38] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.003
+2024-07-17 23:02:41,429 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 23:02:41,430 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 23:02:41,430 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 23:02:41,883 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 172.20.0.1 
+2024-07-17 23:02:42,446 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 23:02:42,452 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 23:02:42,465 1 INFO db_odoo odoo.modules.loading: updating modules list 
+2024-07-17 23:02:42,466 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.20.0.1 
+2024-07-17 23:02:42,906 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 23:02:42,907 1 INFO db_odoo odoo.modules.loading: Loading module dv_inventory (3/74) 
+2024-07-17 23:02:42,934 1 INFO db_odoo odoo.modules.registry: module dv_inventory: creating or updating database tables 
+2024-07-17 23:02:42,988 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/security/ir.model.access.csv 
+2024-07-17 23:02:42,997 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/views/views.xml 
+2024-07-17 23:02:43,043 1 WARNING db_odoo odoo.modules.loading: Transient module states were reset 
+2024-07-17 23:02:43,052 1 ERROR db_odoo odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 431, in _tag_menuitem
+    self._test_xml_id(rec_id)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 250, in _test_xml_id
+    assert modcnt == 1, """The ID "%s" refers to an uninstalled module""" % (xml_id,)
+AssertionError: The ID "order.menu_1_list" refers to an uninstalled module
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 484, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 231, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 71, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 763, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 829, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 749, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 711, in _tag_root
+    raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/dv_inventory/views/views.xml:95, somewhere inside
+<menuitem name="Order" id="order.menu_1_list" parent="dv_inventory.menu_1" action="dv_inventory_order_action_window"/>
+2024-07-17 23:02:43,056 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 23:02:43,065 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 23:02:43,075 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 23:02:43,133 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-07-17 23:02:43,324 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 23:02:43,327 1 INFO db_odoo odoo.modules.registry: Registry loaded in 0.274s 
+2024-07-17 23:02:43,328 1 ERROR db_odoo odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 431, in _tag_menuitem
+    self._test_xml_id(rec_id)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 250, in _test_xml_id
+    assert modcnt == 1, """The ID "%s" refers to an uninstalled module""" % (xml_id,)
+AssertionError: The ID "order.menu_1_list" refers to an uninstalled module
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 2044, in __call__
+    response = request._serve_db()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1632, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 133, in retrying
+    result = func()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1659, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1863, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 154, in _dispatch
+    result = endpoint(**request.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 716, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/dataset.py", line 46, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/dataset.py", line 33, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 468, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 453, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-83>", line 2, in button_immediate_upgrade
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 666, in button_immediate_upgrade
+    return self._button_immediate_function(self.env.registry[self._name].button_upgrade)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 599, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "<decorator-gen-16>", line 2, in new
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 484, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 231, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 71, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 763, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 829, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 749, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 698, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 711, in _tag_root
+    raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/dv_inventory/views/views.xml:95, somewhere inside
+<menuitem name="Order" id="order.menu_1_list" parent="dv_inventory.menu_1" action="dv_inventory_order_action_window"/>
+2024-07-17 23:02:43,329 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:02:43] "POST /web/dataset/call_button HTTP/1.1" 200 - 2458 0.590 1.313
+2024-07-17 23:03:06,855 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-17 23:03:06,855 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-17 23:03:06,866 1 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 223, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 208, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2024-07-17 23:03:06,875 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-07-17 23:03:06,875 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.20.0.3), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-07-17 23:03:06,878 1 INFO db_odoo odoo.sql_db: Connection to the database failed 
+2024-07-17 23:03:06,878 1 WARNING db_odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 115, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db_postgresql" (172.20.0.3), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-07-17 23:03:07,221 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 1 connections  
+2024-07-17 23:03:08,898 1 INFO ? odoo: Odoo version 16.0-20240711 
+2024-07-17 23:03:08,898 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-07-17 23:03:08,898 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-07-17 23:03:08,899 1 INFO ? odoo: database: odoo@db_postgresql:5432 
+2024-07-17 23:03:08,984 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-07-17 23:03:09,120 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on c0752fd70130:8069 
+2024-07-17 23:03:11,012 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 23:03:11,018 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 23:03:11,033 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 23:03:11,042 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 23:03:11,045 1 WARNING db_odoo odoo.api.create: The model odoo.addons.dv_inventory.models.order is not overriding the create method in batch 
+2024-07-17 23:03:11,471 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.43s, 0 queries (+0 extra) 
+2024-07-17 23:03:11,586 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 23:03:11,590 1 INFO db_odoo odoo.modules.registry: Registry loaded in 0.591s 
+2024-07-17 23:03:11,591 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 23:03:11,716 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:11] "GET /websocket HTTP/1.1" 101 - 23 0.019 0.699
+2024-07-17 23:03:11,984 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-07-17 23:03:14,637 1 WARNING db_odoo odoo.modules.module: Missing `license` key in manifest for 'dv_inventory', defaulting to LGPL-3 
+2024-07-17 23:03:14,911 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:14] "GET /web HTTP/1.1" 200 - 82 0.032 2.670
+2024-07-17 23:03:17,912 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:17] "POST /mail/init_messaging HTTP/1.1" 200 - 54 0.031 0.014
+2024-07-17 23:03:18,026 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dv_school', defaulting to LGPL-3 
+2024-07-17 23:03:18,036 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:18] "POST /web/action/load HTTP/1.1" 200 - 12 0.004 0.170
+2024-07-17 23:03:18,154 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:18] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 13 0.004 0.007
+2024-07-17 23:03:18,176 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:18] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.001 0.004
+2024-07-17 23:03:18,211 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:18] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.002
+2024-07-17 23:03:18,214 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:18] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.005 0.006
+2024-07-17 23:03:18,236 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:18] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.004 0.010
+2024-07-17 23:03:18,243 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:18] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 5 0.004 0.010
+2024-07-17 23:03:18,252 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:18] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 23:03:18,256 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:18] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 23:03:18,321 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:18] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 44 0.014 0.020
+2024-07-17 23:03:18,379 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:18] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 5 0.005 0.005
+2024-07-17 23:03:18,402 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:18] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 34 0.019 0.012
+2024-07-17 23:03:18,786 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:18] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.005
+2024-07-17 23:03:18,790 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:18] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.017 0.010
+2024-07-17 23:03:18,884 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-07-17 23:03:23,362 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:23] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.010 0.009
+2024-07-17 23:03:23,606 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:23] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.003
+2024-07-17 23:03:27,373 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 23:03:27,374 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 23:03:27,374 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 23:03:27,808 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 172.20.0.1 
+2024-07-17 23:03:28,370 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 23:03:28,375 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 23:03:28,390 1 INFO db_odoo odoo.modules.loading: updating modules list 
+2024-07-17 23:03:28,391 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.20.0.1 
+2024-07-17 23:03:28,838 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 23:03:28,838 1 INFO db_odoo odoo.modules.loading: Loading module dv_inventory (3/74) 
+2024-07-17 23:03:28,868 1 INFO db_odoo odoo.modules.registry: module dv_inventory: creating or updating database tables 
+2024-07-17 23:03:28,923 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/security/ir.model.access.csv 
+2024-07-17 23:03:28,933 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/views/views.xml 
+2024-07-17 23:03:28,971 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/views/templates.xml 
+2024-07-17 23:03:28,971 1 INFO db_odoo odoo.modules.loading: Module dv_inventory: loading demo 
+2024-07-17 23:03:28,972 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/demo/demo.xml 
+2024-07-17 23:03:28,983 1 INFO db_odoo odoo.addons.base.models.ir_module: module dv_inventory: no translation for language es_PE 
+2024-07-17 23:03:29,001 1 INFO db_odoo odoo.modules.loading: Module dv_inventory loaded in 0.16s, 139 queries (+139 other) 
+2024-07-17 23:03:29,121 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.28s, 139 queries (+139 extra) 
+2024-07-17 23:03:29,568 1 INFO db_odoo odoo.modules.registry: verifying fields for every extended model 
+2024-07-17 23:03:29,982 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 23:03:29,999 1 INFO db_odoo odoo.modules.registry: Registry loaded in 1.637s 
+2024-07-17 23:03:29,999 1 INFO db_odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-07-17 23:03:30,010 1 INFO db_odoo odoo.modules.registry: Registry changed, signaling through the database 
+2024-07-17 23:03:30,011 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:30] "POST /web/dataset/call_button HTTP/1.1" 200 - 3365 1.137 1.504
+2024-07-17 23:03:30,346 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 23:03:30,773 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:30] "GET /web HTTP/1.1" 200 - 89 0.030 0.399
+2024-07-17 23:03:31,205 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:31] "GET /web/webclient/load_menus/321ca98a037dc90a28f97e666ba574e69d086f69d0f093c0a7da9bfdc04346f9 HTTP/1.1" 200 - 2 0.001 0.003
+2024-07-17 23:03:32,645 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:32] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 6 0.002 0.004
+2024-07-17 23:03:32,748 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:32] "POST /mail/init_messaging HTTP/1.1" 200 - 56 0.016 0.014
+2024-07-17 23:03:32,935 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:32] "POST /web/action/load HTTP/1.1" 200 - 8 0.003 0.005
+2024-07-17 23:03:32,942 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:32] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.007 0.009
+2024-07-17 23:03:33,007 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:33] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 23:03:33,046 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:33] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.003 0.005
+2024-07-17 23:03:33,063 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:33] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 23:03:33,158 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:33] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.002
+2024-07-17 23:03:33,180 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:33] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 35 0.013 0.012
+2024-07-17 23:03:33,211 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:33] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.003 0.003
+2024-07-17 23:03:33,509 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:33] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-07-17 23:03:39,515 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:39] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.005
+2024-07-17 23:03:39,782 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:39] "POST /web/dataset/call_kw/inventory.product/get_views HTTP/1.1" 200 - 15 0.005 0.007
+2024-07-17 23:03:40,231 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:40] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.004
+2024-07-17 23:03:40,241 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:40] "POST /web/dataset/call_kw/inventory.product/web_search_read HTTP/1.1" 200 - 3 0.006 0.003
+2024-07-17 23:03:44,987 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:44] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.005
+2024-07-17 23:03:45,350 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:45] "POST /web/dataset/call_kw/inventory.order/get_views HTTP/1.1" 200 - 14 0.005 0.010
+2024-07-17 23:03:45,741 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:03:45] "POST /web/dataset/call_kw/inventory.order/web_search_read HTTP/1.1" 200 - 3 0.001 0.002
+2024-07-17 23:07:09,370 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-07-17 23:07:09,373 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-07-17 23:12:06,817 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:12:06] "POST /web/dataset/call_kw/inventory.order/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2024-07-17 23:12:07,558 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:12:07] "POST /web/dataset/call_kw/inventory.order/onchange HTTP/1.1" 200 - 2 0.001 0.003
+2024-07-17 23:12:16,447 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:12:16] "POST /web/dataset/call_kw/inventory.order/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2024-07-17 23:13:18,976 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:18] "POST /web/action/load HTTP/1.1" 200 - 11 0.003 0.006
+2024-07-17 23:13:19,862 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:19] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 38 0.010 0.018
+2024-07-17 23:13:20,610 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:20] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.004
+2024-07-17 23:13:20,623 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:20] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.018 0.011
+2024-07-17 23:13:24,144 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:24] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.010 0.009
+2024-07-17 23:13:24,432 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:24] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.003
+2024-07-17 23:13:27,607 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 23:13:27,608 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 23:13:27,608 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['dv_inventory'] to user admin #2 via 172.20.0.1 
+2024-07-17 23:13:28,054 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 172.20.0.1 
+2024-07-17 23:13:28,086 1 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2024-07-17 23:13:28,092 1 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-17 23:13:28,105 1 INFO db_odoo odoo.modules.loading: updating modules list 
+2024-07-17 23:13:28,106 1 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.20.0.1 
+2024-07-17 23:13:28,626 1 INFO db_odoo odoo.modules.loading: loading 74 modules... 
+2024-07-17 23:13:28,626 1 INFO db_odoo odoo.modules.loading: Loading module dv_inventory (3/74) 
+2024-07-17 23:13:28,655 1 INFO db_odoo odoo.modules.registry: module dv_inventory: creating or updating database tables 
+2024-07-17 23:13:28,681 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/security/ir.model.access.csv 
+2024-07-17 23:13:28,690 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/views/views.xml 
+2024-07-17 23:13:28,716 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/views/templates.xml 
+2024-07-17 23:13:28,717 1 INFO db_odoo odoo.modules.loading: Module dv_inventory: loading demo 
+2024-07-17 23:13:28,717 1 INFO db_odoo odoo.modules.loading: loading dv_inventory/demo/demo.xml 
+2024-07-17 23:13:28,721 1 INFO db_odoo odoo.addons.base.models.ir_module: module dv_inventory: no translation for language es_PE 
+2024-07-17 23:13:28,733 1 INFO db_odoo odoo.modules.loading: Module dv_inventory loaded in 0.11s, 139 queries (+139 other) 
+2024-07-17 23:13:28,765 1 INFO db_odoo odoo.modules.loading: 74 modules loaded in 0.14s, 139 queries (+139 extra) 
+2024-07-17 23:13:29,099 1 INFO db_odoo odoo.modules.registry: verifying fields for every extended model 
+2024-07-17 23:13:29,406 1 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2024-07-17 23:13:29,417 1 INFO db_odoo odoo.modules.registry: Registry loaded in 1.336s 
+2024-07-17 23:13:29,418 1 INFO db_odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-07-17 23:13:29,421 1 INFO db_odoo odoo.modules.registry: Registry changed, signaling through the database 
+2024-07-17 23:13:29,422 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:29] "POST /web/dataset/call_button HTTP/1.1" 200 - 3365 0.920 0.898
+2024-07-17 23:13:29,799 1 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-17 23:13:30,290 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:30] "GET /web HTTP/1.1" 200 - 89 0.045 0.447
+2024-07-17 23:13:32,655 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:32] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 6 0.002 0.004
+2024-07-17 23:13:32,867 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:32] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.007 0.009
+2024-07-17 23:13:32,888 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:32] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 23:13:33,021 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:33] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.004
+2024-07-17 23:13:33,161 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:33] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 23:13:33,536 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:33] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.002
+2024-07-17 23:13:33,537 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:33] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.002
+2024-07-17 23:13:33,699 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:33] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 35 0.022 0.014
+2024-07-17 23:13:33,700 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:33] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.028 0.017
+2024-07-17 23:13:33,777 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:33] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
+2024-07-17 23:13:34,036 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:34] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.009 0.006
+2024-07-17 23:13:34,043 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:34] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.017 0.003
+2024-07-17 23:13:36,903 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:36] "POST /web/action/load HTTP/1.1" 200 - 12 0.003 0.006
+2024-07-17 23:13:37,203 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:37] "POST /web/dataset/call_kw/stock.picking.type/get_views HTTP/1.1" 200 - 35 0.021 0.015
+2024-07-17 23:13:37,717 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:37] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 16 0.069 0.007
+2024-07-17 23:13:43,243 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:43] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.005
+2024-07-17 23:13:43,494 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:43] "POST /web/dataset/call_kw/inventory.product/get_views HTTP/1.1" 200 - 9 0.003 0.006
+2024-07-17 23:13:43,808 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:43] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.003
+2024-07-17 23:13:43,811 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:43] "POST /web/dataset/call_kw/inventory.product/web_search_read HTTP/1.1" 200 - 3 0.001 0.004
+2024-07-17 23:13:47,373 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:47] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.005
+2024-07-17 23:13:47,774 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:47] "POST /web/dataset/call_kw/inventory.order/get_views HTTP/1.1" 200 - 14 0.004 0.008
+2024-07-17 23:13:48,308 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:48] "POST /web/dataset/call_kw/inventory.order/web_search_read HTTP/1.1" 200 - 3 0.001 0.010
+2024-07-17 23:13:51,800 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:51] "POST /web/dataset/call_kw/inventory.order/onchange HTTP/1.1" 200 - 2 0.001 0.003
+2024-07-17 23:13:59,964 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:13:59] "POST /web/dataset/call_kw/inventory.order/web_search_read HTTP/1.1" 200 - 2 0.001 0.003
+2024-07-17 23:14:26,305 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:14:26] "POST /web/dataset/call_kw/inventory.order/onchange HTTP/1.1" 200 - 1 0.000 0.002
+2024-07-17 23:17:09,956 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-07-17 23:17:09,959 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-07-17 23:27:10,466 1 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-07-17 23:27:10,468 1 INFO db_odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-07-17 23:28:41,446 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:28:41] "GET /web HTTP/1.1" 200 - 10 0.003 0.012
+2024-07-17 23:28:46,184 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:28:46] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.001 0.003
+2024-07-17 23:28:46,222 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:28:46] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.004
+2024-07-17 23:28:47,022 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:28:47] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 14 0.007 0.008
+2024-07-17 23:28:47,033 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:28:47] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.016 0.012
+2024-07-17 23:28:48,861 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:28:48] "POST /mail/load_message_failures HTTP/1.1" 200 - 9 0.003 0.005
+2024-07-17 23:28:48,913 1 INFO ? werkzeug: 172.20.0.1 - - [17/Jul/2024 23:28:48] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.001
+2024-07-17 23:28:49,091 1 INFO db_odoo werkzeug: 172.20.0.1 - - [17/Jul/2024 23:28:49] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.002
