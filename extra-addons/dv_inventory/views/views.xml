@@ -48,6 +48,27 @@
       </field>
     </record>
 
+    <record model="ir.ui.view" id="inventory_client_form">
+      <field name="name">Creación</field>
+      <field name="model">inventory.client</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            ​<group id="header_left_group">
+              <field name="name"/>
+              <field name="email"/>
+              <field name="telephone"/>
+            </group>
+            <notebook>
+            <page id="orders_tab" name="order_ids" string="Órdenes de Venta">
+              <field name="order_ids"/>
+            </page>
+          </notebook>
+          </sheet>   
+        </form>
+      </field>
+    </record>
+
 
     <!-- actions opening views on models -->
 
@@ -64,6 +85,20 @@
       <field name="res_model">inventory.order</field>
       <field name="view_mode">tree,form</field>
     </record>
+
+    <record model="ir.actions.act_window" id="dv_inventory_client_action_form">
+      <field name="name">Creación</field>
+      <field name="res_model">inventory.client</field>
+      <field name="view_mode">form</field>
+      <field name="view_id" ref="inventory_client_form"/>
+      <field name="target">new</field>
+    </record> 
+
+    <record model="ir.actions.act_window" id="dv_inventory_client_action_list">
+      <field name="name">Listado</field>
+      <field name="res_model">inventory.client</field>
+      <field name="view_mode">tree</field>
+    </record>   
 
 
     <!-- server action to the one above -->
@@ -87,14 +122,21 @@
     <!-- menu categories -->
 
     <menuitem name="Menu 1" id="dv_inventory.menu_1" parent="dv_inventory.menu_root"/>
-    <menuitem name="Menu 2" id="dv_inventory.menu_2" parent="dv_inventory.menu_root"/>
+    <menuitem name="Cliente" id="menu_manage_client" parent="dv_inventory.menu_root"/>
+    <menuitem name="Order" id="menu_manage_order" parent="dv_inventory.menu_root"/>
 
     <!-- actions -->
 
     <menuitem name="List" id="dv_inventory.menu_1_list" parent="dv_inventory.menu_1"
               action="dv_inventory.action_window"/>
-    <menuitem name="Order" id="order_menu_1_list" parent="dv_inventory.menu_1"
+
+    <menuitem name="Listado" id="order_list_menu_categ" parent="menu_manage_order"
               action="dv_inventory_order_action_window"/>
+
+    <menuitem name="Creación" id="client_creation_menu_categ" parent="menu_manage_client"
+              action="dv_inventory_client_action_form"/>
+    <menuitem name="Listado" id="client_list_menu_categ" parent="menu_manage_client"
+              action="dv_inventory_client_action_list"/>
 <!--
     <menuitem name="Server to list" id="dv_inventory" parent="dv_inventory.menu_2"
               action="dv_inventory.action_server"/>
