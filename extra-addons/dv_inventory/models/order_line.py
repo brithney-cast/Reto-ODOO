@@ -9,3 +9,4 @@ class OrderLine (models.Model):
     subtotal = fields.Float(string="Subtotal", required=True)
     client_id = fields.Many2one("inventory.client", string="Cliente", required=True)
     order_id = fields.Many2one("inventory.order", string="Órden de venta")
+    product_id = fields.Many2one("inventory.product", string="Producto", required=True)
